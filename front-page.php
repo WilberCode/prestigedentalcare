@@ -7,7 +7,7 @@ get_header();?>
 <?php $file = './tailwind.js';?>   
 
 <section  class=" " >
-  <img class="m-auto" src="http://localhost/wordpress/dental/wp-content/uploads/2020/08/Captura.png" alt="banner">
+  <img class="m-auto" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/Captura.png" alt="banner">
 </section>
 <section class="pt-17 pb-16 bg-gray-200" >
   <div class="container bg-gray-200">
@@ -19,7 +19,7 @@ get_header();?>
           Prestige Dental Care.</h1>
           <h4 class=" text-xl sm:text-2xl font-light" >We love what we can do for you!
           </h4>
-          <img class=" w-full sm:max-w-xs mt-4" src="http://localhost/wordpress/dental/wp-content/uploads/2020/08/chica-feliz-espejo-dental.jpg" alt="chica feliz espejo dental">
+          <img class=" w-full sm:max-w-xs mt-4" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/chica-feliz-espejo-dental.jpg" alt="chica feliz espejo dental">
         </div>
         <div> 
           <div  >
@@ -43,7 +43,7 @@ get_header();?>
     <div class="container">
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <a  class="block h-full " href="#" >
-            <img src="http://localhost/wordpress/dental/wp-content/uploads/2020/08/financing-dental.jpg" alt="">
+            <img src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/financing-dental.jpg" alt="">
             <div  class="bg-white text-center py-8 px-2 mt-1 text-primary-500" >
               <h2  class="text-2xl leading-7 font-semibold tracking-wider" >  Financing </h2>
               <h3 class="text-2xl font-light tracking-wider " >Prestige Dental Care</h3>
@@ -53,7 +53,7 @@ get_header();?>
             </div>
           </a>
           <a  class="block h-full " href="#" >
-            <img src="http://localhost/wordpress/dental/wp-content/uploads/2020/08/financing-dental.jpg" alt="">
+            <img src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/financing-dental.jpg" alt="">
             <div  class="bg-white text-center py-8 px-2 mt-1 text-primary-500" >
               <h2  class="text-2xl leading-7 font-semibold tracking-wider" >  New Patients </h2>
               <h3 class="text-2xl font-light tracking-wider " >Prestige Dental Care</h3>
@@ -63,7 +63,7 @@ get_header();?>
             </div>
           </a>
           <a  class="block h-full " href="#" >
-            <img src="http://localhost/wordpress/dental/wp-content/uploads/2020/08/heart-dentist-patient.jpg" alt="">
+            <img src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/heart-dentist-patient.jpg" alt="">
             <div  class="bg-white text-center py-8 px-2 mt-1 text-primary-500" >
               <h2  class="text-2xl leading-7 font-semibold tracking-wider" >  Gallery </h2>
               <h3 class="text-2xl font-light tracking-wider " >Prestige Dental Care</h3>
