@@ -67,7 +67,7 @@ get_header();?>
             <div  class="bg-white text-center py-8 px-2 mt-1 text-primary-500" >
               <h2  class="text-2xl leading-7 font-semibold tracking-wider" >  Gallery </h2>
               <h3 class="text-2xl font-light tracking-wider " >Prestige Dental Care</h3>
-              <p class="text-lg font-light m-0 tracking-normal" >We have a dental plan for you</p>
+              <p class="text-lg font-light m-0 tracking-normal" >More about us - Before After</p>
                <svg class="text-primary-500 fill-current  w-4 h-4 m-auto mt-5 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#play'; ?>"></svg>  
 
             </div>
