@@ -42,41 +42,36 @@ get_header();?>
   <div class="pt-10 border-t mt-12 border-primary-500  " >
     <div class="container">
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <a  class="block h-full " href="#" >
+          <a  class="block  " href="#" >
             <img src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/financing-dental.jpg" alt="">
-            <div  class="bg-white text-center py-8 px-2 mt-1 text-primary-500" >
+            <div  class="bg-white h-full text-center py-12 px-2 mt-1 text-primary-500" >
               <h2  class="text-2xl leading-7 font-semibold tracking-wider" >  Financing </h2>
               <h3 class="text-2xl font-light tracking-wider " >Prestige Dental Care</h3>
               <p class="text-lg font-light m-0 tracking-normal" >We have a dental plan for you</p>
-               <svg class="text-primary-500 fill-current  w-4 h-4 m-auto mt-5 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#play'; ?>"></svg>  
+                 
 
             </div>
           </a>
-          <a  class="block h-full " href="#" >
+          <a  class="flex flex-col  " href="#" >
             <img src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/financing-dental.jpg" alt="">
-            <div  class="bg-white text-center py-8 px-2 mt-1 text-primary-500" >
+            <div  class="bg-white h-full text-center py-12 px-2 mt-1 text-primary-500" >
               <h2  class="text-2xl leading-7 font-semibold tracking-wider" >  New Patients </h2>
-              <h3 class="text-2xl font-light tracking-wider " >Prestige Dental Care</h3>
-              <p class="text-lg font-light m-0 tracking-normal p-3" > </p>
-               <svg class="text-primary-500 fill-current  w-4 h-4 m-auto mt-5 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#play'; ?>"></svg>  
-
+              <h3 class="text-2xl font-light tracking-wider " >Prestige Dental Care</h3> 
             </div>
           </a>
-          <a  class="block h-full " href="#" >
+          <a  class="flex flex-col  " href="#" >
             <img src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/heart-dentist-patient.jpg" alt="">
-            <div  class="bg-white text-center py-8 px-2 mt-1 text-primary-500" >
+            <div  class="bg-white h-full text-center py-12 px-2 mt-1 text-primary-500" >
               <h2  class="text-2xl leading-7 font-semibold tracking-wider" >  Gallery </h2>
               <h3 class="text-2xl font-light tracking-wider " >Prestige Dental Care</h3>
-              <p class="text-lg font-light m-0 tracking-normal" >More about us - Before After</p>
-               <svg class="text-primary-500 fill-current  w-4 h-4 m-auto mt-5 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#play'; ?>"></svg>  
-
+              <p class="text-lg font-light m-0 tracking-normal" >More about us - Before After</p> 
             </div>
           </a>
       </div>
 
       <h2 class=" text-2xl  sm:text-5xl mt-12 text-primary-500 text-center mb-5 font-medium" >Our patients <span  class="font-light" >say</span></h2>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <div  class="block"  > 
+          <div  class="flex flex-col"  > 
             <div  class="bg-white text-center py-6 px-2  text-primary-500" >
                <svg class="text-secondary-500 fill-current  w-26 h-5 m-auto mt-1"><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#start'; ?>"></svg>  
               <h2  class="text-lg leading-5 font-normal tracking-wider mt-4" >  “Lorem ipsum dolor sit Lorem <br>
