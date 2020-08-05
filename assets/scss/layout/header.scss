@@ -51,7 +51,7 @@
                 @apply block; 
               }
            & > a{
-                @apply block h-full flex items-center text-black relative font-robotocd font-normal text-sm text-primary-500 tracking-wide; 
+                @apply block h-full flex uppercase items-center text-black relative font-robotocd font-normal text-sm text-primary-500 tracking-wide; 
                 &::before{
                     content: '';
                     @apply bg-secondary-500 absolute hidden m-auto ;
