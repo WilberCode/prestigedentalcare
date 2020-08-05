@@ -20,7 +20,7 @@
                 </div> 
                 <div  class=" hidden md:inline-flex items-center pl-5 " >
                    <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#hour'; ?>"></svg> 
-                    <p  class="text-primary-500 text-base font-robotocd font-normal " >Monday - Friday 8:00am - 6:00pm <br> Saturday 9:00am - 2:00pm <span class="text-secondary-500" >Sunday Closed</span> </p>
+                    <p  class="text-primary-500 text-base font-robotocd font-normal " >Monday - Friday 8:30am - 6:00pm <br> Saturday 9:00am - 2:00pm <span class="text-secondary-500" >Sunday Closed</span> </p>
                 
                 </div>
                 <div class=" hidden md:inline-flex items-center">
@@ -72,7 +72,7 @@
 
                             <div  class=" inline-flex items-center  " >
                                     <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#hour'; ?>"></svg> 
-                                        <p  class="text-primary-500 text-base font-robotocd font-normal " >Monday - Friday 8:00am - 6:00pm <br> Saturday 9:00am - 2:00pm <span class="text-secondary-500" >Sunday Closed</span> </p>
+                                        <p  class="text-primary-500 text-base font-robotocd font-normal " >Monday - Friday 8:30am - 6:00pm<br> Saturday 9:00am - 2:00pm <span class="text-secondary-500" >Sunday Closed</span> </p>
                                     
                                 </div>
                                 <div class=" inline-flex items-center">
