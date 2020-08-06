@@ -1,8 +1,4 @@
-<?php
-/*
-Template Name: Dental Services
-Template Post Type: post, page, event
-*/ 
+<?php 
 get_header();?>
  
  
