@@ -11,7 +11,7 @@ get_header();?>
                     'post_type'		=> 'dentalservices',
                     'numberposts'	=> -1,
                     'post_status' => 'publish',
-                    'posts_per_page'   => 6
+                    'posts_per_page'   => 15
                 ); 
                 // query
                 $the_query = new WP_Query( $args );  
