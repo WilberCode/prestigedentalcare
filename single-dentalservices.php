@@ -17,7 +17,7 @@ get_header();?>
                 $the_query = new WP_Query( $args );  
                 if( $the_query->have_posts() ): 
                     while( $the_query->have_posts() ) :$the_query->the_post(); ?>   
-                        <a class="text-sm text-primary-500 block mb-3" href="<?php the_permalink(); ?>" >  <?php the_title();  ?>  </a> 
+                        <a class="text-sm text-primary-500 block mb-3 font-robotocd " href="<?php the_permalink(); ?>" >  <?php the_title();  ?>  </a> 
                          <?php endwhile;
                     else:
                         printf('<p>Sin contenido</p>');
@@ -29,7 +29,7 @@ get_header();?>
                 <?php if(have_posts()):
                                 while(have_posts()):  
                                     the_post(); ?>
-                                     <h1  class=" inline-block bg-primary-500 text-white py-5  pl-5 pr-24 text-base font-light uppercase tracking-wide " ><?php  the_title(); ?> </h1>   
+                                     <h1  class=" inline-block bg-primary-500 text-white py-5  pl-5 pr-24 text-base font-light uppercase  tracking-widest font-robotocd " ><?php  the_title(); ?> </h1>   
                                      <div  class="main-content" > <?php  the_content(); ?>  </div>
                 <?php endwhile;
                         else:
