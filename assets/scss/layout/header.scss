@@ -150,7 +150,7 @@
     &-toggle {
         &-wrap {  
             @apply z-50 h-full flex items-center absolute top-0 bottom-0  ;
-            right: 1.2rem;
+            right: 1.9rem;
             @screen maxlg {
                  transform: scale(.8) translateX(9px);
             }
