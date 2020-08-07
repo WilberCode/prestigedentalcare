@@ -2,8 +2,7 @@
  
 var $ = jQuery.noConflict();
 // import './components/posts'
-import menuMobile from  './components/menuMobile'
-import modalMarca from  './components/modalMarca'
+import menuMobile from  './components/menuMobile' 
 import validateDate from  './utils/hacks'
 
    
@@ -19,8 +18,7 @@ import validateDate from  './utils/hacks'
 
 jQuery(function ($) {  
     $(document).ready(function () {  
-        menuMobile($)       // Menu Mobile: Show menu and hide   
-        modalMarca($)       // Active Modal of marca    
+        menuMobile($)       // Menu Mobile: Show menu and hide    
         validateDate($)
        
     });  
