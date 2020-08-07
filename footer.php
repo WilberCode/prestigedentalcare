@@ -4,14 +4,16 @@
         <div  class="  grid col-gap-1 md:grid-cols-2 row-gap-6  lg:flex   lg:space-x-12  lg:px-6" >
           <div class="inline-flex items-center  " >
 
-          <svg class="text-secondary-500 fill-current w-16  xl:w-21 h-16 xl:h-21 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#phone'; ?>"></svg>  
-          <p class="text-white font-light text-lg  ml-4 md:ml-8 tracking-wider " >Tel. (561)965-3933 <br>
-Fax (561)965-9303</p>
+          <svg class="text-secondary-500 fill-current w-16  xl:w-21 h-16 xl:h-21 mr-4 md:mr-8 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#phone'; ?>"></svg>  
+          <!-- <p class="text-white font-light text-lg   tracking-wider " >Tel. (561)965-3933 <br>
+Fax (561)965-9303</p> -->
+            <?php dynamic_sidebar('phone-number') ?>
           </div>
           <div class="inline-flex items-center" >
 
-          <svg class="text-secondary-500 fill-current w-16  xl:w-21 h-16 xl:h-21 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#mail'; ?>"></svg>  
-          <p class="text-white font-light text-lg  ml-4   tracking-wider " >prestigedentalcarefl@gmail.com</p>
+          <svg class="text-secondary-500 fill-current w-16  xl:w-21 h-16 xl:h-21 mr-4  "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#mail'; ?>"></svg>  
+     
+          <?php dynamic_sidebar('contact-mail') ?> 
           </div>  
 
           <div class="social-media flex items-center " >

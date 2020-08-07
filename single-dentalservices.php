@@ -4,7 +4,7 @@ get_header();?>
  
 <div class="container">
 <div class="flex flex-col-reverse sm:grid grid-cols-4 col-gap-10 lg:col-gap-8 mt-20 mb-20 ">
-            <aside class="aside mt-8 sm:mt-0  col-span-1   border-r border-primary-500 pr-4">
+            <aside class="aside mt-10 sm:mt-0 pt-6 sm:pt-0  col-span-1  border-t sm:border-t-0 sm:border-r border-primary-500 pr-4">
                 <?php
                 // Query post services
                 $args = array(
@@ -17,7 +17,7 @@ get_header();?>
                 $the_query = new WP_Query( $args );  
                 if( $the_query->have_posts() ): 
                     while( $the_query->have_posts() ) :$the_query->the_post(); ?>   
-                        <a class="text-sm text-primary-500 block mb-3 font-robotocd " href="<?php the_permalink(); ?>" >  <?php the_title();  ?>  </a> 
+                        <a class=" text-md sm:text-sm text-primary-500 block mb-3 font-robotocd " href="<?php the_permalink(); ?>" >  <?php the_title();  ?>  </a> 
                          <?php endwhile;
                     else:
                         printf('<p>Sin contenido</p>');
