@@ -1,0 +1,12 @@
+.btn{
+    @apply bg-secondary-500 text-white   py-3 px-5 border-none rounded-lg  inline-block  text-base text-center leading-5 tracking-wide font-robotocd font-bold ;  
+    @at-root{
+        &.btn-sm{
+            @apply py-2 px-4 rounded-md ;
+        }
+    }
+    &:focus{
+        @apply outline-none;
+    }
+}  
+ 
