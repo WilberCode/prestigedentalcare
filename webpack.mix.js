@@ -45,7 +45,7 @@ mix.purgeCss({
     ]),
     whitelist: ['current-menu-item' ],
     // whitelistPatterns: [/^search-/],
-    whitelistPatternsChildren: [/^search-/,/^social-media/,/^single-dentalservices/]
+    whitelistPatternsChildren: [/^search-/,/^social-media/,/^single-dentalservices/,/^everest-forms/]
 });
 
 // if (mix.inProduction()) {

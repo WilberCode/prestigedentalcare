@@ -131,6 +131,24 @@ function wph_front_widgets(){
 		'before_title' => '<h2 class="hidden">',
         'after_title'  => '</h2>'
     ));   
+    register_sidebar(array(
+        'name' => __('Phone number'),
+        'id' =>'phone-number',
+        'description'   => 'Contact numbers',
+        'before_widget' => '<div class="contact-phone">',
+		'after_widget'  => '</div>',
+		'before_title' => '<h2 class="text-white hidden">',
+        'after_title'  => '</h2>'
+    ));   
+    register_sidebar(array(
+        'name' => __('Mail'),
+        'id' =>'contact-mail',
+        'description'   => 'Contact mail',
+        'before_widget' => '<div class="contact-mail">',
+		'after_widget'  => '</div>',
+		'before_title' => '<h2 class="text-white hidden">',
+        'after_title'  => '</h2>'
+    ));   
   
 }
 add_action('widgets_init', 'wph_front_widgets');
