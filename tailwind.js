@@ -130,9 +130,7 @@ module.exports = {
                 '3xl': '48rem',
                 '4xl': '56rem',
                 '5xl': '64rem',
-                '6xl': '72rem',
-                'modal': '66rem',
-                'container': '84.25rem',
+                '6xl': '75rem', 
                 full: '100%',
             },
             fontFamily: { 

@@ -1,3 +1,11 @@
+.banner{
+    &-image{
+        img{
+            @apply max-w-6xl m-auto; 
+            max-width: 1200px;
+        }
+    }
+}
 
 // form
 .everest{

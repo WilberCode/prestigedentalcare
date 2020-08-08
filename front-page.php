@@ -6,9 +6,8 @@ Template Post Type: post, page, event
 get_header();?>
 <?php $file = './tailwind.js';?>   
 
-<section  class=" " >
-  <img class="m-auto" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/Captura.png" alt="banner">
-</section>
+<?php dynamic_sidebar('banner-image') ?> 
+
 <section class="pt-17 pb-16 bg-gray-200" >
   <div class="container bg-gray-200">
       <div class="grid grid-cols-1 md:grid-cols-2 md:px-4 row-gap-6 ">

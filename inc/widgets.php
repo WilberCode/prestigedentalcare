@@ -100,10 +100,10 @@ add_action( 'after_setup_theme', 'wph_theme_support' );
  
 function wph_front_widgets(){
     register_sidebar(array(
-        'name' => __('Footer - Información de pie de página'),
-        'id' =>'footer-info',
-        'description'   => 'Informacion legal de la empresa',
-        'before_widget' => '<div class="footer-info">',
+        'name' => __('Banner Image'),
+        'id' =>'banner-image',
+        'description'   => 'Image',
+        'before_widget' => '<div class="banner-image">',
 		'after_widget'  => '</div>',
 		'before_title' => '<h2 class="hidden">',
         'after_title'  => '</h2>'

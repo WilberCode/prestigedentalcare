@@ -5,8 +5,6 @@
           <div class="inline-flex items-center  " >
 
           <svg class="text-secondary-500 fill-current w-16  xl:w-21 h-16 xl:h-21 mr-4 md:mr-8 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#phone'; ?>"></svg>  
-          <!-- <p class="text-white font-light text-lg   tracking-wider " >Tel. (561)965-3933 <br>
-Fax (561)965-9303</p> -->
             <?php dynamic_sidebar('phone-number') ?>
           </div>
           <div class="inline-flex items-center" >
