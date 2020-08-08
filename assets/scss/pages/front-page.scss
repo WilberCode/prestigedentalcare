@@ -1,0 +1,77 @@
+.banner{
+    &-image{
+        img{
+            @apply max-w-6xl m-auto; 
+            max-width: 1200px;
+        }
+    }
+}
+
+// form
+.everest{
+    &-forms{
+        @apply bg-white pt-8  px-8 pb-16 #{!important};
+        @screen sm{
+            @apply  pt-10  px-15  #{!important};
+
+        }
+        .everest-forms-notice{
+           @apply   bg-secondary-500 ;
+
+        }
+        .evf{
+            &-container{
+                @apply mb-0 #{!important}; 
+            }
+            &-frontend{ 
+                &-row{
+                    @apply m-0 #{!important};
+                }
+                &-grid{ 
+                    @apply  pb-6  px-0   grid grid-cols-2 row-gap-4 col-gap-4  #{!important};
+                    @screen sm{
+                        @apply col-gap-6 #{!important};
+        
+                    }
+                    input{
+                        @apply py-4 px-3 bg-gray-400  text-center mb-0 border-none text-primary-500 #{!important} ;
+                        &::placeholder{
+                         @apply text-white tracking-wide #{!important} ;
+
+                        }
+                    }
+                    .evf-field{
+                        @apply mb-0 #{!important};
+
+                    }
+                    .evf-field-date-time{
+                        input{  
+                            background-image: url('../svg/date.svg');  
+                            background-size: 36px;
+                            background-repeat: no-repeat; 
+                            background-position: center;  
+                        }
+                        input.active{     
+                            background-size: 20px;
+                            background-position: right 10px center;
+
+                        }
+                        .time-value{
+                            background-size: 20px;
+                            background-position: right 10px center;
+                        }
+                    }
+                }
+            }
+            &-submit-container{
+                @apply mt-1 text-center;
+                button{
+                    @apply bg-secondary-500 text-white   py-3 px-12 border-none rounded-lg  inline-block  text-base text-center leading-4 tracking-widest font-robotocd font-normal  #{!important};
+
+                }
+            }
+            
+        }
+    }
+   
+}
