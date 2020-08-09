@@ -23,11 +23,11 @@ get_header();?>
                     while( $the_query->have_posts() ) :$the_query->the_post(); ?>    
                        
                         <a  class="flex flex-col h-full " href="<?php the_permalink(); ?>" >
-                        <img class="w-full" src="<?php echo thumbnail_image_url('full'); ?>" alt=" <?php the_title();  ?> ">
-                              <div  class="bg-gray-200 h-26-1 flex items-center justify-center py-8 px-6 mt-1-1 text-primary-500" >
-                                <h2  class="text-base leading-5 font-medium text-center" >   <?php the_title();  ?> </h2> 
-                              </div>
-                            </a> 
+                            <img class="w-full block" src="<?php echo thumbnail_image_url('thumbnail'); ?>" alt=" <?php the_title();  ?> ">
+                            <div  class="bg-gray-200 h-26-1 flex items-center justify-center py-8 px-6 mt-1-1 text-primary-500" >
+                              <h2  class="text-base leading-5 font-medium text-center" >   <?php the_title();  ?> </h2> 
+                            </div>
+                        </a> 
                        
                        <?php endwhile;
                   else:
