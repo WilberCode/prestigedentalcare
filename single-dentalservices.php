@@ -3,7 +3,7 @@ get_header();?>
  
  
 <div class="container">
-<div class="flex flex-col-reverse sm:grid grid-cols-4 col-gap-10 lg:col-gap-8 mt-20 mb-20 ">
+<div class="flex flex-col-reverse sm:grid grid-cols-4 col-gap-10 lg:col-gap-10 mt-20 mb-20  ">
             <aside class="aside mt-10 sm:mt-0 pt-6 sm:pt-0  col-span-1  border-t sm:border-t-0 sm:border-r border-primary-500 pr-4">
                 <?php
                 // Query post services
@@ -29,7 +29,7 @@ get_header();?>
                 <?php if(have_posts()):
                                 while(have_posts()):  
                                     the_post(); ?>
-                                     <h1  class=" inline-block bg-primary-500 text-white py-5  pl-5 pr-24 text-base font-light uppercase  tracking-widest font-robotocd " ><?php  the_title(); ?> </h1>   
+                                     <h1  class=" inline-block bg-primary-500 text-white py-5  pl-5 pr-24 mb-2 text-base font-light uppercase  tracking-widest font-robotocd " ><?php  the_title(); ?> </h1>   
                                      <div  class="main-content" > <?php  the_content(); ?>  </div>
                 <?php endwhile;
                         else:
