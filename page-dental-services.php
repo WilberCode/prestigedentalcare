@@ -7,7 +7,7 @@ get_header();?>
  
 <section class="pt-20 pb-16  " > 
     <div class="container">
-      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 ">
         
           <?php
                 // Query post services

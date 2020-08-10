@@ -4,11 +4,11 @@
             &-content{
                 @apply mt-6;
                 h2{
-                 @apply  text-secondary-500 font-semibold leading-3 tracking-wide;   
+                 @apply  text-secondary-500 font-semibold leading-6 tracking-wide;   
                  font-size: 1.18rem; 
                 }
                 p{
-                 @apply mb-6 text-primary-500 tracking-wide text-md ; 
+                 @apply mb-6 text-primary-500 tracking-wide text-md -mt-3 ; 
                 }
                 img{
                     max-width:none;
