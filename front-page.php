@@ -12,13 +12,15 @@ get_header();?>
   <div class="container bg-gray-200">
       <div class="grid grid-cols-1 md:grid-cols-2 md:px-4 row-gap-6 ">
         <div class="text-primary-500 pr-0 sm:pr-4 " >
-          <h3  classw=" sm:text-xl tracking-widest " >Our Dental Services
-          </h3>
-          <h1 class="text-2xl sm:text-5xl font-light leading-tighter mt-2" >Welcome to <br>
-          Prestige Dental Care.</h1>
-          <h4 class=" text-xl sm:text-2xl font-light" >We love what we can do for you!
-          </h4>
-          <img class=" w-full sm:max-w-xs mt-4" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/chica-feliz-espejo-dental.jpg" alt="chica feliz espejo dental">
+          <a href="dental-services/" class=" no-underline "  >
+            <h3  classw=" sm:text-xl tracking-widest " >Our Dental Services
+            </h3>
+            <h1 class="text-2xl sm:text-5xl font-light leading-tighter mt-2" >Welcome to <br>
+            Prestige Dental Care.</h1>
+            <h4 class=" text-xl sm:text-2xl font-light" >We love what we can do for you!
+            </h4>
+            <img class=" w-full sm:max-w-xs mt-4" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/chica-feliz-espejo-dental.jpg" alt="chica feliz espejo dental">
+          </a>
         </div>
         <div>  
               <h2 class="py-6 sm:py-8 px-2 text-center  bg-primary-500 text-white text-xl tracking-wider " >Yes! I want to make an Appointment today!</h2> 
