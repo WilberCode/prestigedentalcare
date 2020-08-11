@@ -1,10 +1,10 @@
 .single{
     &-dentalservices{
         .main{
-            &-content{
-                @apply mt-6; 
+            &-content{ 
                 &__title{
-                  @apply block bg-primary-500 text-white py-5 px-5 max-w-xxs mb-2 text-base font-light uppercase tracking-widest font-robotocd #{!important};
+                  @apply mb-6  bg-primary-500 text-white py-5 px-5 max-w-xxs mb-2 text-base font-light uppercase tracking-widest font-robotocd #{!important};
+                  display: block;
                 } 
                  /* purgecss start ignore */
                 &__title--lg{
@@ -16,7 +16,7 @@
                  font-size: 1.18rem; 
                 }
                 p{
-                 @apply mb-6 text-primary-500 tracking-wide text-md -mt-3 ; 
+                 @apply mb-7 text-primary-500 tracking-wide text-md -mt-3 ; 
                 }
                 img{
                     max-width:none;
