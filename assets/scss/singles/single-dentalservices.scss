@@ -2,7 +2,15 @@
     &-dentalservices{
         .main{
             &-content{
-                @apply mt-6;
+                @apply mt-6; 
+                &__title{
+                  @apply block bg-primary-500 text-white py-5 px-5 max-w-xxs mb-2 text-base font-light uppercase tracking-widest font-robotocd #{!important};
+                } 
+                 /* purgecss start ignore */
+                &__title--lg{
+                    @apply  inline-block bg-primary-500 text-white py-5  px-5  mb-2 text-base font-light uppercase  tracking-widest font-robotocd #{!important};
+                }
+                /* purgecss end ignore */
                 h2{
                  @apply  text-secondary-500 font-semibold leading-6 tracking-wide;   
                  font-size: 1.18rem; 
@@ -35,3 +43,4 @@
     @apply py-3 px-6  bg-secondary-500 text-white  text-center mt-20 m-auto font-medium;
     max-width: 35rem;
 }
+

@@ -29,7 +29,7 @@ get_header();?>
                 <?php if(have_posts()):
                                 while(have_posts()):  
                                     the_post(); ?>
-                                     <h1  class=" inline-block bg-primary-500 text-white py-5  pl-5 pr-24 mb-2 text-base font-light uppercase  tracking-widest font-robotocd " ><?php  the_title(); ?> </h1>   
+                                     <h1  class="main-content__title" ><?php  the_title(); ?> </h1>   
                                      <div  class="main-content" > <?php  the_content(); ?>  </div>
                 <?php endwhile;
                         else:
