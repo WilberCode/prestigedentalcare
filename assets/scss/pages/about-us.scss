@@ -3,13 +3,7 @@
         .wp-block-qubely-text {
             @apply pb-0 ;  
         } 
-        h1{ 
-            @apply font-light text-2xl text-primary-600;  
-            strong{
-                @apply font-bold #{!important};
-            }
-           
-        } 
+        
         h2{
             @apply  text-secondary-500 font-semibold leading-6 tracking-wide text-lg-1 ;    
         }

@@ -13,7 +13,7 @@
          h1{ 
             @apply font-light text-2xl text-primary-600;  
             strong{
-                @apply font-bold #{!important};
+                @apply font-medium #{!important};
             }
          } 
          p{ 

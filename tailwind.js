@@ -63,7 +63,8 @@ module.exports = {
                 '62': '20rem',
                 '63': '21rem',
                 '64': '22rem',
-                '64': '23rem',
+                '65': '23rem',
+                '72': '30rem',
             },
             colors: {
                 link: {
