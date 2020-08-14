@@ -1,14 +1,8 @@
 .page-template-page-about-us{
     .main{ 
         .wp-block-qubely-text {
-            @apply py-0 ;  
-        }
-        // .wp-block-qubely-row{
-        //     // @apply px-0 ;  
-        //     // .wp-block-qubely-column{
-        //     //   @apply px-0 ;  
-        //     // }
-        // }
+            @apply pb-0 ;  
+        } 
         h1{ 
             @apply font-light text-2xl text-primary-600;  
             strong{
@@ -17,13 +11,12 @@
            
         } 
         h2{
-            @apply  text-secondary-500 font-semibold leading-6 tracking-wide;   
-            font-size: 1.18rem; 
-           }
-        p{ 
-            @apply mb-7 text-primary-500 tracking-wide text-md -mt-3 ;  
-
+            @apply  text-secondary-500 font-semibold leading-6 tracking-wide text-lg-1 ;    
         }
+        // p{ 
+        //     @apply mb-7 text-primary-500 tracking-wide text-md -mt-3 ;  
+
+        // }
         &-name{
             @apply font-medium text-primary-600 bg-white py-4 px-3; 
             width: 100%;

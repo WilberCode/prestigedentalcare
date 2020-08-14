@@ -96,6 +96,7 @@ module.exports = {
                 base: ' 1rem',
                 md: ' 1.063rem',
                 lg: '1.12rem',
+                'lg-1': '1.18rem',
                 xl: '1.25rem',
                 'xl-1': '1.38rem',
                 '2xl': '1.668rem',  
