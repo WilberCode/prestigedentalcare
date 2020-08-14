@@ -38,10 +38,13 @@
         .qubely-container{ 
             @apply m-0;
             max-width: 100%; 
+            @screen maxsm{ 
+                    @apply px-0; 
+            }
+        }
+        .qubely-column{
             @screen maxsm{
-                .qubely-container{
-                    @apply px-0;
-                }
+                @apply px-0; 
             }
         }
        
