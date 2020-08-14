@@ -103,6 +103,7 @@ module.exports = {
                 '2xl': '1.668rem',  
                 '3xl': '1.87rem',
                 '4xl': '2.25rem',
+                '4xl-1': '2.264rem',
                 '5xl': '2.61rem',
                 '6xl': '4rem',
                  // leading como participar 

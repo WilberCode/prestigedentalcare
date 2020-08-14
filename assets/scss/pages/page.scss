@@ -39,6 +39,14 @@
                 @apply px-0; 
             }
         }
+        .specials-price{ 
+            strong{
+              @apply text-4xl-1 mr-4 font-medium ;   
+              @screen maxsm {
+                @apply text-xl ;    
+              }
+           }
+        }
       }
  }
  
