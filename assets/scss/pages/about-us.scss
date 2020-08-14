@@ -3,9 +3,14 @@
         .wp-block-qubely-text {
             @apply py-0 ;  
         }
+        // .wp-block-qubely-row{
+        //     // @apply px-0 ;  
+        //     // .wp-block-qubely-column{
+        //     //   @apply px-0 ;  
+        //     // }
+        // }
         h1{ 
-            @apply font-light text-2xl text-primary-600; 
-
+            @apply font-light text-2xl text-primary-600;  
             strong{
                 @apply font-bold #{!important};
             }
@@ -16,7 +21,7 @@
             font-size: 1.18rem; 
            }
         p{ 
-            @apply mb-8 text-primary-500 tracking-wide text-md -mt-3 ;  
+            @apply mb-7 text-primary-500 tracking-wide text-md -mt-3 ;  
 
         }
         &-name{
