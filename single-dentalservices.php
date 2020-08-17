@@ -37,7 +37,7 @@ get_header();?>
                     endif;
                 rewind_posts(); ?>
                 <div  class="mt-8 info-hidden">
-                <p  class="info-contact " >If you are considering <span  class="lowercase" > <?php the_title();  ?></span> with a caring dentist near you,
+                <p  class="info-contact">If you are considering <span  class="lowercase" > <?php the_title();  ?></span> with a caring dentist near you,
 call us today at <a href="tel:+15619653933">(561) 965-3933</a> or click below for a consultation</p>
                 </div>
                 <div class="text-center " >
