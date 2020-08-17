@@ -45,7 +45,9 @@ mix.purgeCss({
     ]),
     whitelist: ['current-menu-item' ],
     // whitelistPatterns: [/^search-/],
-    whitelistPatternsChildren: [/^search-/,/^social-media/,/^single-dentalservices/,/^everest-forms/,/^wp-block-/,/^qubely-/,/^page-template-page-about-us/,/^page/]
+    // whitelistPatternsChildren: [/^search-/,/^social-media/,/^single-dentalservices/,/^everest-forms/,/^wp-block-/,/^qubely-/,/^page-template-page-about-us/,/^page/,/^textwidget/]
+    whitelistPatternsChildren: [/^search-/,/^social-media/,/^everest-forms/,/^page/,/^single/,/^textwidget/]
+     
 });
 
 // if (mix.inProduction()) {

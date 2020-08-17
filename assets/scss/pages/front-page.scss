@@ -95,3 +95,19 @@
     }
    
 }
+
+
+// Widgets
+
+// Attention schedule & Location
+
+.attention-schedule, .location{
+    .textwidget{
+        p{
+            @apply text-primary-500 text-base font-robotocd font-normal;
+            strong{
+                @apply text-secondary-500 font-normal;
+            }
+        }
+    }
+}

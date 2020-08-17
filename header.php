@@ -20,14 +20,11 @@
                 </div> 
                 <div  class=" hidden md:inline-flex items-center pl-5 " >
                    <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#hour'; ?>"></svg> 
-                    <p  class="text-primary-500 text-base font-robotocd font-normal " >Monday - Friday 8:30am - 6:00pm <br> Saturday 9:00am - 2:00pm <span class="text-secondary-500" >Sunday Closed</span> </p>
-                
+                    <?php dynamic_sidebar('attention-schedule') ?> 
                 </div>
                 <div class=" hidden md:inline-flex items-center">
-                <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#location'; ?>"></svg> 
-
-                <p class="text-primary-500 text-base font-robotocd font-normal " >6169 S Jog Rd. Suite B-2 <br>
-        Lake Worth, FL 33467</p>
+                    <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#location'; ?>"></svg> 
+                    <?php dynamic_sidebar('location') ?>  
                 </div>
                 <div class=" text-right sm:text-left" >
                 <a class="btn bg-secondary-500" href="#">Make an Appointment</a>
@@ -57,32 +54,28 @@
                 <div class="mobile-nav-wrap" id="mobile-nav-wrap"  > 
                     
                     <div class="container">
-                    <?php  
-                    wp_nav_menu(array(
-                        'theme_location'  => 'mobile-menu',
-                        'container'       => 'nav',
-                        'container_class' => 'mobile-nav',
-                        'container_id'    => 'mobile-nav',  
-                        'menu' => 'ul',
-                        'menu_class'      => 'mobile-menu',
-                        'menu_id'         => 'mobile-menu' ,
-                    ));  
-                ?> 
-                    <div class="grid grid-cols-1 gap-6  mt-8 lg:hidden  "> 
-
+                        <?php  
+                        wp_nav_menu(array(
+                            'theme_location'  => 'mobile-menu',
+                            'container'       => 'nav',
+                            'container_class' => 'mobile-nav',
+                            'container_id'    => 'mobile-nav',  
+                            'menu' => 'ul',
+                            'menu_class'      => 'mobile-menu',
+                            'menu_id'         => 'mobile-menu' ,
+                        ));  
+                    ?> 
+                        <div class="grid grid-cols-1 gap-6  mt-8 lg:hidden  ">  
                             <div  class=" inline-flex items-center  " >
-                                    <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#hour'; ?>"></svg> 
-                                        <p  class="text-primary-500 text-base font-robotocd font-normal " >Monday - Friday 8:30am - 6:00pm<br> Saturday 9:00am - 2:00pm <span class="text-secondary-500" >Sunday Closed</span> </p>
-                                    
-                                </div>
-                                <div class=" inline-flex items-center">
-                                    <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#location'; ?>"></svg> 
-
-                                    <p class="text-primary-500 text-base font-robotocd font-normal " >6169 S Jog Rd. Suite B-2 <br>
-                            Lake Worth, FL 33467</p>
-                                </div>
+                                <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#hour'; ?>"></svg> 
+                                <?php dynamic_sidebar('attention-schedule') ?>  
                             </div>
-                    </div>
+                            <div class=" inline-flex items-center">
+                                <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#location'; ?>"></svg> 
+                                <?php dynamic_sidebar('location') ?>  
+                            </div>
+                        </div>
+                   </div>
                 </div>
                 <div class="nav-toggle-wrap block lg:hidden ">
                     <button  id="nav-toggle" class="nav-toggle focus:outline-none border-none">  
