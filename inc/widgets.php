@@ -100,6 +100,24 @@ add_action( 'after_setup_theme', 'wph_theme_support' );
  
 function wph_front_widgets(){
     register_sidebar(array(
+        'name' => __('Attention schedule'),
+        'id' =>'attention-schedule',
+        'description'   => 'Image',
+        'before_widget' => '<div class="attention-schedule">',
+		'after_widget'  => '</div>',
+		'before_title' => '<h2 class="hidden">',
+        'after_title'  => '</h2>'
+    ));   
+    register_sidebar(array(
+        'name' => __('Location'),
+        'id' =>'location',
+        'description'   => 'Location',
+        'before_widget' => '<div class="location">',
+		'after_widget'  => '</div>',
+		'before_title' => '<h2 class="hidden">',
+        'after_title'  => '</h2>'
+    ));   
+    register_sidebar(array(
         'name' => __('Banner Image'),
         'id' =>'banner-image',
         'description'   => 'Image',
