@@ -1,18 +1,22 @@
 .single{
         &-dentalservices{
             .main{
-                &-content{ 
+                &-content{  
                     &__title{
-                      @apply mb-10  max-w-xxs  ;
-                      @apply   bg-primary-500 text-white py-5 px-5 text-base font-light  uppercase tracking-widest font-robotocd  #{!important} ;
-    
-                      display: block;
-                    } 
-                     /* purgecss start ignore */
-                    &__title--lg{
-                        @apply  mb-10   ;
-                        @apply  inline-block bg-primary-500 text-white py-5 text-base font-light uppercase tracking-widest px-5 font-robotocd   #{!important};
+                       @apply mb-10 bg-primary-500 text-white py-5 px-5 text-base font-light  uppercase tracking-widest font-robotocd;
+
                     }
+                    // &__title{
+                    //   @apply mb-10  max-w-xxs  ;
+                    //   @apply   bg-primary-500 text-white py-5 px-5 text-base font-light  uppercase tracking-widest font-robotocd  #{!important} ;
+    
+                    //   display: block;
+                    // } 
+                    //  /* purgecss start ignore */
+                    // &__title--lg{
+                    //     @apply  mb-10   ;
+                    //     @apply  inline-block bg-primary-500 text-white py-5 text-base font-light uppercase tracking-widest px-5 font-robotocd   #{!important};
+                    // }
                     /* purgecss end ignore */
                     h2{
                      @apply  text-secondary-500 font-semibold leading-6 tracking-wide;   

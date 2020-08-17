@@ -26,19 +26,30 @@ get_header();?>
                     <!-- End While post type services --> 
             </aside>
            <main class="main  col-span-3  font-normal  ">  
-                <?php if(have_posts()):
+             <?php if(have_posts()):
                                 while(have_posts()):  
                                     the_post(); ?>
-                                     <h1  class="main-content__title" ><?php  the_title(); ?> </h1>   
+                                     <?php 
+                                          if(!empty(get_the_excerpt()) && ctype_space(get_the_excerpt()) != 1) {?>
+                                            <h1  class=" main-content__title inline-block" >
+                                                <?php the_excerpt();?>
+                                            </h1>   
+                                       <?php } else { ?> 
+                                              <h1  class=" main-content__title max-w-xxs  " >
+                                                <?php the_title();?>
+                                            </h1>   
+                                        <?php } ?> 
+                                      
                                      <div  class="main-content" > <?php  the_content(); ?>  </div>
                 <?php endwhile;
                         else:
                             printf('<p>Sin contenido</p>');
                     endif;
                 rewind_posts(); ?>
-                <div  class="mt-8 info-hidden">
-                <p  class="info-contact " >If you are considering <span  class="lowercase" > <?php the_title();  ?></span> with a caring dentist near you,
-call us today at <a href="tel:+15619653933">(561) 965-3933</a> or click below for a consultation</p>
+                <div  class="mt-8"> 
+                    <div  class="info-contact" >If you are considering <span  class="lowercase" ><?php   if(!empty(get_the_excerpt()) && ctype_space(get_the_excerpt()) != 1) {  the_excerpt(); } else {    the_title(); } ?>
+                     </span> with a caring dentist near you, call us today at <a href="tel:+15619653933">(561) 965-3933</a> or click below for a consultation
+                    </div>
                 </div>
                 <div class="text-center " >
                     <a class="py-4 px-5 border tracking-wider text-primary-500 border-primary-500 rounded-3xl text-xl-1 inline-block " href="#">Click here to request an Appointment</a>
