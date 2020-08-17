@@ -41,4 +41,4 @@ function thumbnail_image_url($size){
  
   
   
- 
+remove_filter('the_excerpt', 'wpautop'); 
