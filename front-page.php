@@ -22,7 +22,7 @@ get_header();?>
             <img class=" w-full sm:max-w-xs mt-4" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/chica-feliz-espejo-dental.jpg" alt="chica feliz espejo dental">
           </a>
         </div>
-        <div>  
+        <div id="appointment-today">  
               <h2 class="py-6 sm:py-8 px-2 text-center  bg-primary-500 text-white text-xl tracking-wider " >Yes! I want to make an Appointment today!</h2> 
               <?php   
 
@@ -38,14 +38,12 @@ get_header();?>
   <div class="pt-10 border-t mt-12 border-primary-500  " >
     <div class="container">
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <a  class="block  " href="#" >
+          <a  class="flex flex-col  " href="financing/" >
             <img class="w-full" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/financing-dental.jpg" alt="">
             <div  class="bg-white h-full text-center py-12 px-2 mt-1 text-primary-500" >
               <h2  class="text-2xl leading-7 font-semibold tracking-wider" >  Financing </h2>
               <h3 class="text-2xl font-light tracking-wider " >Prestige Dental Care</h3>
-              <p class="text-lg font-light m-0 tracking-normal" >We have a dental plan for you</p>
-                 
-
+              <p class="text-lg font-light m-0 tracking-normal" >We have a dental plan for you</p>  
             </div>
           </a>
           <a  class="flex flex-col  " href="#" >

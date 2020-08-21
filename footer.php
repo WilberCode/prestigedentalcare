@@ -31,8 +31,8 @@
     </div>
   </section> 
 <div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3034.415620236627!2d-74.5886315483243!3d40.488191559111534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1596585422741!5m2!1ses!2spe" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.4154927274712!2d-74.58858294817632!3d40.48819437925548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI5JzE3LjUiTiA3NMKwMzUnMTEuMCJX!5e0!3m2!1ses!2spe!4v1597764627320!5m2!1ses!2spe" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+ </div>
 
 <footer class="bg-white" >
  <div class="container  ">
@@ -58,7 +58,7 @@
            </div>
 
           <div >
-             <a class="btn bg-secondary-500" href="#">Make an Appointment</a>  
+             <a class="btn bg-secondary-500" href="#appointment-today">Make an Appointment</a>  
             </div> 
         </div>
     </div>

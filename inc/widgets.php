@@ -102,7 +102,7 @@ function wph_front_widgets(){
     register_sidebar(array(
         'name' => __('Attention schedule'),
         'id' =>'attention-schedule',
-        'description'   => 'Image',
+        'description'   => 'Attention schedule',
         'before_widget' => '<div class="attention-schedule">',
 		'after_widget'  => '</div>',
 		'before_title' => '<h2 class="hidden">',
