@@ -37,7 +37,7 @@ get_header();?>
                   <!-- End While post type services --> 
     </div>
       <div class="mt-20 text-center mb-15" >
-        <a href="#"  class=" py-6 px-6 sm:py-8 sm:px-8 border tracking-wider text-primary-500 border-primary-500 rounded-4xl  text-xl sm:text-2xl inline-block" >Ready for your Appointment?</a>
+        <a href="/#appointment-today"  class=" py-6 px-6 sm:py-8 sm:px-8 border tracking-wider text-primary-500 border-primary-500 rounded-4xl  text-xl sm:text-2xl inline-block" >Ready for your Appointment?</a>
 
       </div>
       </div>
