@@ -52,7 +52,7 @@ get_header();?>
                     </div>
                 </div>
                 <div class="text-center " >
-                    <a class="py-4 px-5 border tracking-wider text-primary-500 border-primary-500 rounded-3xl text-xl-1 inline-block " href="#">Click here to request an Appointment</a>
+                    <a class="py-4 px-5 border tracking-wider text-primary-500 border-primary-500 rounded-3xl text-xl-1 inline-block " href="/#appointment-today">Click here to request an Appointment</a>
                 </div>
            </main>
             
