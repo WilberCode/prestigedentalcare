@@ -30,9 +30,9 @@
         </div>
     </div>
   </section> 
-<div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.4154927274712!2d-74.58858294817632!3d40.48819437925548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI5JzE3LjUiTiA3NMKwMzUnMTEuMCJX!5e0!3m2!1ses!2spe!4v1597764627320!5m2!1ses!2spe" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
- </div>
+<div> 
+    <iframe width="100%" height="300" src="https://maps.google.com/maps?q=40%C2%B029'17.5''N%2074%C2%B035'11.0''W&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</div>
 
 <footer class="bg-white" >
  <div class="container  ">
