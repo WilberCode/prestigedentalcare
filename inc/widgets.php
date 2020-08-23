@@ -144,6 +144,24 @@ function wph_front_widgets(){
 		'before_title' => '<h2 class="text-white hidden">',
         'after_title'  => '</h2>'
     ));   
+    register_sidebar(array(
+        'name' => __('Our Dental Services'),
+        'id' =>'our-dental-service',
+        'description'   => 'Dental Services',
+        'before_widget' => '<div class="our-dental-service">',
+		'after_widget'  => '</div>',
+		'before_title' => '<h2 class="text-white hidden">',
+        'after_title'  => '</h2>'
+    ));   
+    register_sidebar(array(
+        'name' => __('Form for make an Appointment'),
+        'id' =>'form-make-appointment',
+        'description'   => 'Make an Appointment',
+        'before_widget' => '<div class="our-dental-service">',
+		'after_widget'  => '</div>',
+		'before_title' => '<h2 class="py-6 sm:py-8 px-2 text-center  bg-primary-500 text-white text-xl tracking-wider">',
+        'after_title'  => '</h2>'
+    ));   
   
 }
 add_action('widgets_init', 'wph_front_widgets');

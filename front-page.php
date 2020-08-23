@@ -20,19 +20,13 @@ get_header();?>
             <h4 class=" text-xl sm:text-2xl font-light" >We love what we can do for you!
             </h4>
             <img class=" w-full sm:max-w-xs mt-4" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/chica-feliz-espejo-dental.jpg" alt="chica feliz espejo dental">
-          </a>
+          </a> 
+          <?php //dynamic_sidebar('our-dental-service') ?> 
         </div>
-        <div id="appointment-today">  
-              <h2 class="py-6 sm:py-8 px-2 text-center  bg-primary-500 text-white text-xl tracking-wider " >Yes! I want to make an Appointment today!</h2> 
-              <?php   
-
-              if (file_exists(dirname(__FILE__) . $file)) {  
-                  echo do_shortcode('[everest_form id="63"]'); 
-              }else{
-                  echo do_shortcode('[everest_form id="76"]');
-              }
-              ?> 
-        </div>
+       <div id="appointment-today">   
+              <?php dynamic_sidebar('form-make-appointment') ?> 
+              
+        </div>  
       </div>
   </div>
   <div class="pt-10 border-t mt-12 border-primary-500  " >
