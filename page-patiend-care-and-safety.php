@@ -17,8 +17,7 @@ get_header();?>
         <img class="w-full"  src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/Patient-care-and-safety.jpg" alt="Patient care and safety">
     </div>
 </main> 
- 
- 
+  
 
  <?php  
 get_footer();
