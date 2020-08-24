@@ -1,15 +1,13 @@
 <?php 
 get_header(); ?> 
 
-<main class="main">
-    <div class="container">
+<main class="main bg-body "> 
     <?php
     while ( have_posts() ) :
         the_post(); 
         the_content(); 
     endwhile;
-    ?>  
-    </div>
+    ?>   
 </main> 
 
 <?php

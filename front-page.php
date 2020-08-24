@@ -20,11 +20,11 @@ get_header();?>
             <h4 class=" text-xl sm:text-2xl font-light" >We love what we can do for you!
             </h4>
             <img class=" w-full sm:max-w-xs mt-4" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/chica-feliz-espejo-dental.jpg" alt="chica feliz espejo dental">
-          </a> 
-          <?php //dynamic_sidebar('our-dental-service') ?> 
+          </a>   
+          <?php // dynamic_sidebar('our-dental-service'); ?> 
         </div>
        <div id="appointment-today">   
-              <?php dynamic_sidebar('form-make-appointment') ?> 
+              <?php dynamic_sidebar('form-make-appointment'); ?> 
               
         </div>  
       </div>

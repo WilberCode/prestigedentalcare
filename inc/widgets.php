@@ -150,7 +150,7 @@ function wph_front_widgets(){
         'description'   => 'Dental Services',
         'before_widget' => '<div class="our-dental-service">',
 		'after_widget'  => '</div>',
-		'before_title' => '<h2 class="text-white hidden">',
+		'before_title' => '<h2 class="sm:text-xl tracking-widest ">',
         'after_title'  => '</h2>'
     ));   
     register_sidebar(array(

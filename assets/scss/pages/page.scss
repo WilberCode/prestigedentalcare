@@ -3,6 +3,14 @@
     @apply bg-white;
 
  }
+/*  .page{
+    .alignfull{
+       @apply max-w-screen-2xl;
+    }
+    .alignwide{
+       @apply max-w-5xl;
+    }
+ } */
 
  .page{
       .main{
@@ -50,3 +58,9 @@
       }
  }
  
+ /* .home{
+   .qubely-block-text-sub-title{
+      @apply text-5xl;
+   }
+ }
+  */

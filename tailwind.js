@@ -6,7 +6,7 @@ module.exports = {
                 sm: "100%",
                 md: "100%",
                 lg: "1108px",
-                xl: "1108px"
+                xl: "1108px", 
              }
         },
         extend: {
@@ -105,10 +105,7 @@ module.exports = {
                 '4xl': '2.25rem',
                 '4xl-1': '2.264rem',
                 '5xl': '2.61rem',
-                '6xl': '4rem',
-                 // leading como participar 
-                // '4xlp2': '2.60rem',
-                // '5xlp1': '3.40rem', 
+                '6xl': '4rem', 
             },
             lineHeight: {
                 tighter: '1.125',
