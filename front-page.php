@@ -6,7 +6,7 @@ Template Post Type: post, page, event
 get_header();?>
 <?php $file = './tailwind.js';?>   
 
-<?php dynamic_sidebar('banner-image') ?> 
+<?php dynamic_sidebar('banner-image') ?>   
 
 <section class="pt-17 pb-16 bg-gray-200" >
   <div class="container bg-gray-200">
