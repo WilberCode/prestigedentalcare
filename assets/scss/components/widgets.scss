@@ -1,3 +1,4 @@
+// Btn Call Us
 .call-us{
     .textwidget{
         p{
@@ -9,6 +10,7 @@
         }
     }
 }
+// Btn Make an Appointment
 .make-an-appointment{
     .textwidget{
         p{
@@ -18,5 +20,17 @@
             @apply m-0;
             @include btn;
         }
+    }
+}
+
+// Icons Phone and Mail
+
+.contact {
+    &-mail, &-phone{
+        a::before{
+            content: ''; 
+            @apply absolute  top-0 right-0 bottom-0 left-0 z-10 ; 
+        }
+       
     }
 }
