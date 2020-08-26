@@ -162,6 +162,15 @@ function wph_front_widgets(){
 		'before_title' => '<h2 class="py-6 sm:py-8 px-2 text-center  bg-primary-500 text-white text-xl tracking-wider">',
         'after_title'  => '</h2>'
     ));   
+    register_sidebar(array(
+        'name' => __('Call Us'),
+        'id' =>'call-us',
+        'description'   => 'button',
+        'before_widget' => '<div class="call-us">',
+		'after_widget'  => '</div>',
+		'before_title' => '<a class="hidden ">',
+        'after_title'  => '</a>'
+    ));   
   
 }
 add_action('widgets_init', 'wph_front_widgets');

@@ -10,7 +10,7 @@
                     $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );?>
                         <?php if ( has_custom_logo() ) { ?> 
                     <a class="logo__url" href="<?php echo home_url();?>" rel="home">
-                        <img id="logo__img" class="w-27" src="<?php echo esc_url( $logo[0]);?>" alt="<?php bloginfo('name'); ?>" >
+                        <img id="logo__img" class="w-24 sm:w-27" src="<?php echo esc_url( $logo[0]);?>" alt="<?php bloginfo('name'); ?>" >
                     </a> 
                         <?php }else{?>
                     <a class="logo__title" href="<?php echo home_url();?>" rel="home">
@@ -28,15 +28,14 @@
                 </div>
                 <div class=" text-right sm:text-left" >
                 <a class="btn bg-secondary-500" href="/#appointment-today">Make an Appointment</a>
-                </div>
-
+                </div> 
       </div>
    </div>
   
     <div class="header-wrap  m-auto flex h-14  sm:h-18  justify-between items-center border-t-2 border-primary-500 "> 
        <div class="container inline-flex items-center lg:justify-between "> 
-         <div  class="relative z-40" >
-            <a class="btn btn-sm  " href="tel:+15619653933">Call Us</a>
+         <div  class="relative z-40" > 
+            <?php dynamic_sidebar('call-us') ?>  
          </div>
          <div class=" items-center md:h-full " > 
              <?php  
