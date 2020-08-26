@@ -8,13 +8,11 @@
 @import "partials/variables";
 @import "partials/hacks"; 
 @import "lib/mixins";  
-
-// @import "components/card";
+ 
 @import "components/button";   
 @import "components/search-form"; 
 @import "components/social-media"; 
-// @import "components/input"; 
-// @import "components/marcas-filter"; 
+@import "components/widgets";  
 
 @import "layout/header"; 
 @import "layout/footer"; 

@@ -1,26 +1,15 @@
  
  
-var $ = jQuery.noConflict();
-// import './components/posts'
+var $ = jQuery.noConflict(); 
 import menuMobile from  './components/menuMobile' 
-import validateDate from  './utils/hacks'
+import hacksBehaviors from  './utils/hacks'
 
-   
-// function activeCategory(){
-//     $('.marca-category-filter').on('click',function(e){
-//         $('.marca-category-filter').each(function(u) {  
-//             $(this).removeClass('marca-category-active')  
-//         });  
-//         $(this).toggleClass('marca-category-active') 
-//     })
-// }
 
 
 jQuery(function ($) {  
     $(document).ready(function () {  
-        menuMobile($)       // Menu Mobile: Show menu and hide    
-        validateDate($)
-       
+        menuMobile($)       // Menu Mobile: Show and hide the menu  
+        hacksBehaviors($)   // Hacks Behaviors
     });  
 });
  
