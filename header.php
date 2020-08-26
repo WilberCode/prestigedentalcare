@@ -27,7 +27,7 @@
                     <?php dynamic_sidebar('location') ?>  
                 </div>
                 <div class=" text-right sm:text-left" >
-                <a class="btn bg-secondary-500" href="#appointment-today">Make an Appointment</a>
+                <a class="btn bg-secondary-500" href="/#appointment-today">Make an Appointment</a>
                 </div>
 
       </div>
