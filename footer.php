@@ -2,16 +2,16 @@
  <section  class="bg-primary-500 py-21" >
     <div class="container  ">
         <div  class="  grid col-gap-1 md:grid-cols-2 row-gap-6  lg:flex   lg:space-x-12  lg:px-6" >
-          <div class="inline-flex items-center  " >
+          <div class="inline-flex items-center relative " >
 
-          <svg class="text-secondary-500 fill-current w-16  xl:w-21 h-16 xl:h-21 mr-4 md:mr-8 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#phone'; ?>"></svg>  
+            <svg class="text-secondary-500 fill-current w-16  xl:w-21 h-16 xl:h-21 mr-4 md:mr-8 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#phone'; ?>"></svg>  
             <?php dynamic_sidebar('phone-number') ?>
           </div>
-          <div class="inline-flex items-center" >
+          <div class="inline-flex items-center relative" >
 
-          <svg class="text-secondary-500 fill-current w-16  xl:w-21 h-16 xl:h-21 mr-4  "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#mail'; ?>"></svg>  
+            <svg class="text-secondary-500 fill-current w-16  xl:w-21 h-16 xl:h-21 mr-4  "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#mail'; ?>"></svg>  
      
-          <?php dynamic_sidebar('contact-mail') ?> 
+            <?php dynamic_sidebar('contact-mail') ?> 
           </div>  
 
           <div class="social-media flex items-center " >
@@ -58,8 +58,7 @@
            </div>
 
           <div > 
-             <?php dynamic_sidebar('make-an-appointment') ?> 
-
+             <?php dynamic_sidebar('make-an-appointment') ?>  
             </div> 
         </div>
     </div>
