@@ -171,6 +171,15 @@ function wph_front_widgets(){
 		'before_title' => '<a class="hidden ">',
         'after_title'  => '</a>'
     ));   
+    register_sidebar(array(
+        'name' => __('Button Make an Appointment'),
+        'id' =>'make-an-appointment',
+        'description'   => 'button',
+        'before_widget' => '<div class="make-an-appointment">',
+		'after_widget'  => '</div>',
+		'before_title' => '<a class="hidden ">',
+        'after_title'  => '</a>'
+    ));   
   
 }
 add_action('widgets_init', 'wph_front_widgets');

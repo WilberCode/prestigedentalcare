@@ -57,8 +57,9 @@
                 
            </div>
 
-          <div >
-             <a class="btn bg-secondary-500" href="/#appointment-today">Make an Appointment</a>  
+          <div > 
+             <?php dynamic_sidebar('make-an-appointment') ?> 
+
             </div> 
         </div>
     </div>

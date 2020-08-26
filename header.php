@@ -26,8 +26,8 @@
                     <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#location'; ?>"></svg> 
                     <?php dynamic_sidebar('location') ?>  
                 </div>
-                <div class=" text-right sm:text-left" >
-                <a class="btn bg-secondary-500" href="/#appointment-today">Make an Appointment</a>
+                <div class=" text-right sm:text-left" > 
+                    <?php dynamic_sidebar('make-an-appointment') ?> 
                 </div> 
       </div>
    </div>
