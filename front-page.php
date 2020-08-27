@@ -3,8 +3,7 @@
 Template Name: Home
 Template Post Type: post, page, event
 */ 
-get_header();?>
-<?php $file = './tailwind.js';?>   
+get_header();?>   
 
 <section  class="w-full bg-body" >
   <?php dynamic_sidebar('banner-image') ?> 
@@ -38,66 +37,7 @@ get_header();?>
           ?>   
         </div>
     </main> 
-  <!--   <div class="container">
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <a  class="flex flex-col  " href="financing/" >
-            <img class="w-full" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/financing-dental.jpg" alt="">
-            <div  class="bg-white h-full text-center py-12 px-2 mt-1 text-primary-500" >
-              <h2  class="text-2xl leading-7 font-semibold tracking-wider" >  Financing </h2>
-              <h3 class="text-2xl font-light tracking-wider " >Prestige Dental Care</h3>
-              <p class="text-lg font-light m-0 tracking-normal" >We have a dental plan for you</p>  
-            </div>
-          </a>
-          <a  class="flex flex-col  " href="#" >
-            <img class="w-full" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/man.png" alt="">
-            <div  class="bg-white h-full text-center py-12 px-2 mt-1 text-primary-500" >
-              <h2  class="text-2xl leading-7 font-semibold tracking-wider" >  New Patients </h2>
-              <h3 class="text-2xl font-light tracking-wider " >Prestige Dental Care</h3> 
-            </div>
-          </a>
-          <a  class="flex flex-col  " href="#" >
-            <img class="w-full" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/heart-dentist-patient.jpg" alt="">
-            <div  class="bg-white h-full text-center py-12 px-2 mt-1 text-primary-500" >
-              <h2  class="text-2xl leading-7 font-semibold tracking-wider" >  Gallery </h2>
-              <h3 class="text-2xl font-light tracking-wider " >Prestige Dental Care</h3>
-              <p class="text-lg font-light m-0 tracking-normal" >More about us - Before After</p> 
-            </div>
-          </a>
-      </div>
-
-      <h2 class=" text-2xl  sm:text-5xl mt-12 text-primary-500 text-center mb-5 font-medium" >Our patients <span  class="font-light" >say</span></h2>
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <div  class="flex flex-col"  > 
-            <div  class="bg-white text-center py-6 px-2  text-primary-500" >
-               <svg class="text-secondary-500 fill-current  w-26 h-5 m-auto mt-1"><use href="<?php // echo get_bloginfo('template_directory').'/build/svg/icons.svg#start'; ?>"></svg>  
-              <h2  class="text-lg leading-5 font-normal tracking-wide mt-4" >  “Lorem ipsum dolor sit Lorem <br>
-ipsum dolor sit Lorem ipsum <br>
-dolor sit” </h2> 
-            <p class="font-semibold mt-6 text-base " >Christine, 27 years</p>
-
-            </div>
-          </div>
-          <div  class="block"  >
-            <div  class="bg-white text-center py-6 px-2  text-primary-500" >
-               <svg class="text-secondary-500 fill-current  w-26 h-5 m-auto mt-1"><use href="<?php // echo get_bloginfo('template_directory').'/build/svg/icons.svg#start'; ?>"></svg>  
-              <h2  class="text-lg leading-5 font-normal tracking-wide mt-4" > “Lorem ipsum dolor sit Lorem <br>
-ipsum dolor sit Lorem ipsum <br>
-dolor sit”  </h2> 
-            <p class="font-semibold mt-6 text-base " >Christine, 27 years</p>
-            </div>
-          </div>
-          <div  class="block"  >
-            <div  class="bg-white text-center py-6 px-2  text-primary-500" >
-               <svg class="text-secondary-500 fill-current  w-26 h-5 m-auto mt-1"><use href="<?php // echo get_bloginfo('template_directory').'/build/svg/icons.svg#start'; ?>"></svg>   
-              <h2  class="text-lg leading-5 font-normal tracking-wide mt-4" > “Lorem ipsum dolor sit Lorem <br>
-ipsum dolor sit Lorem ipsum <br>
-  dolor sit”  </h2> 
-              <p class="font-semibold mt-6 text-base " >Christine, 27 years</p>
-
-            </div>
-          </div>
-      </div>
-    </div> -->
+ 
   </div>
  
  </section>
