@@ -1,0 +1,121 @@
+.banner{
+    &-image{
+        @apply max-w-6xl  m-auto ;
+        img{
+            @apply max-w-6xl m-auto; 
+            max-width: 1200px;
+        }
+    }
+}
+
+
+// form
+.everest{
+    &-forms{
+        @apply bg-white pt-8  px-4 pb-16 #{!important}; 
+        @screen xs{
+            @apply px-6 #{!important}; 
+        }
+        @screen sm{
+            @apply  pt-10  px-15  #{!important}; 
+        }
+       
+        .everest-forms-notice{
+           @apply   bg-secondary-500 ;
+
+        }
+        .evf{
+            &-container{
+                @apply mb-0 #{!important}; 
+            }
+            &-frontend{ 
+                &-row{
+                    @apply m-0 #{!important};
+                }
+                &-grid{ 
+                    @apply  pb-6  px-0   grid grid-cols-2 row-gap-4 col-gap-3  #{!important};
+                    @screen xs{
+                        @apply col-gap-4 #{!important};
+
+                    }
+                    @screen sm{
+                        @apply col-gap-6 #{!important};
+        
+                    }
+                    input{
+                        @apply py-4 px-3 bg-gray-400  text-center mb-0 border-none text-primary-500 #{!important} ;
+                        &::placeholder{
+                         @apply text-white tracking-wide #{!important} ;
+
+                        }
+                    }
+                    .evf-field{
+                        @apply mb-0 #{!important};
+
+                    }
+                    .evf-field-date-time{
+                        input{  
+                            background-image: url('../svg/date.svg');  
+                            background-size: 36px; 
+                            @apply bg-center bg-no-repeat ;
+
+                            @screen maxsm{
+                                background-size: 25px; 
+                                @apply  text-left #{!important};
+                            } 
+                        }
+                        input.active{     
+                            background-size: 20px;
+                            background-position: right 10px center;
+                            @screen maxsm{
+                                background-position: right 6px center;
+                                background-size: 15px; 
+                            } 
+
+                        }
+                        .time-value{ 
+                            background-position: right 10px center;
+                            background-size: 20px; 
+                            @screen maxsm{ 
+                                background-size: 15px; 
+                                background-position: right 6px center;
+                            } 
+                        }
+                    }
+                }
+            }
+            &-submit-container{
+                @apply mt-1 text-center;
+                button{
+                    @apply bg-secondary-500 text-white   py-3 px-12 border-none rounded-lg  inline-block  text-base text-center leading-4 tracking-widest font-robotocd font-normal  #{!important};
+
+                }
+            }
+            
+        }
+    }
+   
+}
+.page-template-front-page{ 
+    main{
+        .qubely-container{
+            @apply pl-0 pr-0 #{!important};
+        }
+    } 
+}
+
+
+// Widgets
+
+// Attention schedule & Location
+
+.attention-schedule, .location{
+    .textwidget{
+        p{
+            @apply text-primary-500 text-base font-robotocd font-normal;
+            strong{
+                @apply text-secondary-500 font-normal;
+            }
+        }
+    }
+}

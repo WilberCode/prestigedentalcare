@@ -23,7 +23,22 @@ get_header();?>
       </div>
   </div>
   <div class="pt-10 border-t mt-12 border-primary-500  " >
-    <div class="container">
+    <main class="main bg-body "> 
+        <div class="container">
+          <?php
+          if(have_posts()):
+            while ( have_posts() ) :    
+                the_post(); 
+                the_content(); 
+            endwhile;
+           else:
+                  printf('<p>Empty</p>');
+           endif;
+          rewind_posts(); 
+          ?>   
+        </div>
+    </main> 
+  <!--   <div class="container">
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <a  class="flex flex-col  " href="financing/" >
             <img class="w-full" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/financing-dental.jpg" alt="">
@@ -54,7 +69,7 @@ get_header();?>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <div  class="flex flex-col"  > 
             <div  class="bg-white text-center py-6 px-2  text-primary-500" >
-               <svg class="text-secondary-500 fill-current  w-26 h-5 m-auto mt-1"><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#start'; ?>"></svg>  
+               <svg class="text-secondary-500 fill-current  w-26 h-5 m-auto mt-1"><use href="<?php // echo get_bloginfo('template_directory').'/build/svg/icons.svg#start'; ?>"></svg>  
               <h2  class="text-lg leading-5 font-normal tracking-wide mt-4" >  “Lorem ipsum dolor sit Lorem <br>
 ipsum dolor sit Lorem ipsum <br>
 dolor sit” </h2> 
@@ -64,7 +79,7 @@ dolor sit” </h2>
           </div>
           <div  class="block"  >
             <div  class="bg-white text-center py-6 px-2  text-primary-500" >
-               <svg class="text-secondary-500 fill-current  w-26 h-5 m-auto mt-1"><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#start'; ?>"></svg>  
+               <svg class="text-secondary-500 fill-current  w-26 h-5 m-auto mt-1"><use href="<?php // echo get_bloginfo('template_directory').'/build/svg/icons.svg#start'; ?>"></svg>  
               <h2  class="text-lg leading-5 font-normal tracking-wide mt-4" > “Lorem ipsum dolor sit Lorem <br>
 ipsum dolor sit Lorem ipsum <br>
 dolor sit”  </h2> 
@@ -73,7 +88,7 @@ dolor sit”  </h2>
           </div>
           <div  class="block"  >
             <div  class="bg-white text-center py-6 px-2  text-primary-500" >
-               <svg class="text-secondary-500 fill-current  w-26 h-5 m-auto mt-1"><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#start'; ?>"></svg>   
+               <svg class="text-secondary-500 fill-current  w-26 h-5 m-auto mt-1"><use href="<?php // echo get_bloginfo('template_directory').'/build/svg/icons.svg#start'; ?>"></svg>   
               <h2  class="text-lg leading-5 font-normal tracking-wide mt-4" > “Lorem ipsum dolor sit Lorem <br>
 ipsum dolor sit Lorem ipsum <br>
   dolor sit”  </h2> 
@@ -82,7 +97,7 @@ ipsum dolor sit Lorem ipsum <br>
             </div>
           </div>
       </div>
-    </div>
+    </div> -->
   </div>
  
  </section>
