@@ -96,6 +96,13 @@
     }
    
 }
+.page-template-front-page{ 
+    main{
+        .qubely-container{
+            @apply pl-0 pr-0 #{!important};
+        }
+    } 
+}
 
 
 // Widgets
