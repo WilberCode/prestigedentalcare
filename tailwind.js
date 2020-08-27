@@ -107,6 +107,15 @@ module.exports = {
                 '5xl': '2.61rem',
                 '6xl': '4rem', 
             },
+            letterSpacing: {
+                tighter: '-0.05em',
+                tight: '-0.025em',
+                normal: '0',
+                wide: '0.025em',
+                'wide-1': '0.038rem',
+                wider: '0.05em',
+                widest: '0.1em',
+            },
             lineHeight: {
                 tighter: '1.125',
             }, 

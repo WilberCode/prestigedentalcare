@@ -7,27 +7,7 @@
         }
     }
 }
-.our-dental-service{
-    h3{
-        @apply  text-2xl  font-light leading-tighter mt-2;
-        @screen sm{
-            @apply  text-5xl; 
-        }
-    }
-    h4{
-        @apply  text-xl  font-light;
-        @screen sm{
-            @apply  text-2xl; 
-        } 
-    }
-    img{
-        @apply w-full mt-4;
-        @screen sm{
-            @apply  max-w-xs ; 
-        } 
-    }
 
-}
 
 // form
 .everest{
