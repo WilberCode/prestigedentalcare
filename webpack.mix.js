@@ -27,8 +27,7 @@ if (local.proxy) {
 mix.tailwind();
 
 mix.js('assets/js/app.js', 'js');
-mix.sass('assets/scss/app.scss', 'css').options({ processCssUrls: false});  
-mix.copy('assets/img', 'build/img'); 
+mix.sass('assets/scss/app.scss', 'css').options({ processCssUrls: false}); 
 mix.copy('assets/svg', 'build/svg');
 mix.copy('assets/font', 'build/font');
 

@@ -36,15 +36,9 @@ get_header();?>
           rewind_posts(); 
           ?>   
         </div>
-    </main> 
- 
-  </div>
- 
- </section>
-
- 
-
- 
+    </main>  
+  </div> 
+ </section> 
 
  <?php  
 get_footer();
