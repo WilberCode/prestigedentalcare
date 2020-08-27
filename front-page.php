@@ -9,24 +9,16 @@ get_header();?>
 <section  class="w-full bg-body" >
   <?php dynamic_sidebar('banner-image') ?> 
 </section>   
-<section class="pt-17 pb-16 bg-gray-200" >
+<section class="pt-16 pb-16 bg-gray-200" >
   <div class="container bg-gray-200">
       <div class="grid grid-cols-1 md:grid-cols-2 md:px-4 row-gap-6 ">
         <div class="text-primary-500 pr-0 sm:pr-4 " >
-          <a href="dental-services/" class=" no-underline "  >
-            <h3  classw=" sm:text-xl tracking-widest " >Our Dental Services
-            </h3>
-            <h1 class="text-2xl sm:text-5xl font-light leading-tighter mt-2" >Welcome to <br>
-            Prestige Dental Care.</h1>
-            <h4 class=" text-xl sm:text-2xl font-light" >We love what we can do for you!
-            </h4>
-            <img class=" w-full sm:max-w-xs mt-4" src="https://prestigedentalcare.tendenzeperu.com/wp-content/uploads/2020/08/chica-feliz-espejo-dental.jpg" alt="chica feliz espejo dental">
+          <a href="dental-services/" class=" no-underline" >
+            <?php  dynamic_sidebar('our-dental-service'); ?> 
           </a>   
-          <?php // dynamic_sidebar('our-dental-service'); ?> 
         </div>
-       <div id="appointment-today">   
-              <?php dynamic_sidebar('form-make-appointment'); ?> 
-              
+       <div id="appointment-today"  class="pt-2">   
+              <?php dynamic_sidebar('form-make-appointment'); ?>  
         </div>  
       </div>
   </div>
