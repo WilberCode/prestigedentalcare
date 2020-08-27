@@ -180,6 +180,15 @@ function wph_front_widgets(){
 		'before_title' => '<a class="hidden ">',
         'after_title'  => '</a>'
     ));   
+    register_sidebar(array(
+        'name' => __('Location'),
+        'id' =>'location-map',
+        'description'   => 'Location  Map',
+        'before_widget' => '<div class="location-map w-full">',
+		'after_widget'  => '</div>',
+		'before_title' => '<h2 class="hidden">',
+        'after_title'  => '</h2>'
+    ));   
   
 }
 add_action('widgets_init', 'wph_front_widgets');

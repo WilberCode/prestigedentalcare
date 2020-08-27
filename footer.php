@@ -10,7 +10,6 @@
           <div class="inline-flex items-center relative" >
 
             <svg class="text-secondary-500 fill-current w-16  xl:w-21 h-16 xl:h-21 mr-4  "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#mail'; ?>"></svg>  
-     
             <?php dynamic_sidebar('contact-mail') ?> 
           </div>  
 
@@ -31,8 +30,10 @@
     </div>
   </section> 
 <div> 
-    <iframe width="100%" height="300" src="https://maps.google.com/maps?q=40%C2%B029'17.5''N%2074%C2%B035'11.0''W&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-</div>
+    <?php dynamic_sidebar('location-map') ?>  
+<!--     <iframe width="100%" height="300" src="https://maps.google.com/maps?q=40%C2%B029'17.5''N%2074%C2%B035'11.0''W&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+ -->
+ </div>
 
 <footer class="bg-white" >
  <div class="container  ">
