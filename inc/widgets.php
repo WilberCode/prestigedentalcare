@@ -159,7 +159,7 @@ function wph_front_widgets(){
         'description'   => 'Make an Appointment',
         'before_widget' => '<div class="our-dental-service">',
 		'after_widget'  => '</div>',
-		'before_title' => '<h2 class="py-6 sm:py-8 px-2 text-center  bg-primary-500 text-white text-xl tracking-wider">',
+		'before_title' => '<h2 class="py-6 sm:py-8 px-2 text-center  bg-primary-500 text-white text-lg tracking-wider">',
         'after_title'  => '</h2>'
     ));   
     register_sidebar(array(
