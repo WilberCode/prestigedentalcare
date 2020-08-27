@@ -40,21 +40,21 @@
 .our-dental-service{
     .textwidget{
         h3{
-            @apply  text-2xl  font-light leading-tighter mt-2;
-            @screen sm{
+            @apply  text-2xl  font-light leading-tighter mt-2 mb-1;
+            @screen md{
                 @apply  text-5xl; 
             }
         }
         &>h4{
             @apply  text-xl  font-light mt-1 mb-0;
-            @screen sm{
+            @screen md{
                 @apply  text-2xl; 
             } 
         }
         img{
             @apply w-full mt-4;
             @screen sm{
-                @apply  max-w-xs ; 
+                @apply  max-w-xs; 
             } 
         }
     } 

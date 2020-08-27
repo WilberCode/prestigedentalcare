@@ -16,7 +16,7 @@ get_header();?>
             <?php  dynamic_sidebar('our-dental-service'); ?> 
           </a>   
         </div>
-       <div id="appointment-today"  class="pt-2">   
+       <div id="appointment-today"  class="pt-3">   
               <?php dynamic_sidebar('form-make-appointment'); ?>  
         </div>  
       </div>
