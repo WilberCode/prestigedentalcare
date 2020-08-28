@@ -37,10 +37,7 @@ get_header();?>
           ?>   
         </div>
     </main>  
-  </div> 
- <div class="container">
-     <div id="doctible-review-widget"></div>
-  </div> 
+  </div>  
  </section> 
 
 
