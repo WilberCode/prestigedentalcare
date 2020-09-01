@@ -18,11 +18,11 @@
                     </a>     
                         <?php }?>     
                 </div> 
-                <div  class=" hidden md:inline-flex items-center pl-5 " >
+                <div  class=" hidden md:inline-flex items-top lg:pt-4 pl-2 " >
                    <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#hour'; ?>"></svg> 
                     <?php dynamic_sidebar('attention-schedule') ?> 
                 </div>
-                <div class=" hidden md:inline-flex items-center">
+                <div class=" hidden md:inline-flex items-top  lg:pl-12  ">
                     <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#location'; ?>"></svg> 
                     <?php dynamic_sidebar('location') ?>  
                 </div>
@@ -32,7 +32,7 @@
       </div>
    </div>
   
-    <div class="header-wrap  m-auto flex h-14  sm:h-18  justify-between items-center border-t-2 border-primary-500 "> 
+    <div class="header-wrap  m-auto flex h-14  sm:h-18  justify-between items-center border-t border-primary-600 "> 
        <div class="container inline-flex items-center lg:justify-between "> 
          <div  class="relative z-40" > 
             <?php dynamic_sidebar('call-us') ?>  
@@ -65,11 +65,11 @@
                         ));  
                     ?> 
                         <div class="grid grid-cols-1 gap-6  mt-8 lg:hidden  ">  
-                            <div  class=" inline-flex items-center  " >
+                            <div  class=" inline-flex items-top pt-2  " >
                                 <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#hour'; ?>"></svg> 
                                 <?php dynamic_sidebar('attention-schedule') ?>  
                             </div>
-                            <div class=" inline-flex items-center">
+                            <div class=" inline-flex items-top pt-2">
                                 <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#location'; ?>"></svg> 
                                 <?php dynamic_sidebar('location') ?>  
                             </div>

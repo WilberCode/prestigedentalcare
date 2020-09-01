@@ -26,8 +26,6 @@ View::$view_dir = get_stylesheet_directory() . '/templates/views';
 
 require get_stylesheet_directory() . '/includes/scripts-and-styles.php';
  
- 
-// Tendenze
 
 // Obtiene la Url del thumbnail     
 function thumbnail_image_url($size){
@@ -38,7 +36,5 @@ function thumbnail_image_url($size){
     return $main_image[0];
 }
 
- 
-  
-  
+// remove any tags  of excerpt 
 remove_filter('the_excerpt', 'wpautop'); 

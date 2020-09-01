@@ -21,7 +21,7 @@ get_header();?>
         </div>  
       </div>
   </div>
-  <div class="pt-10 border-t mt-12 border-primary-500  " >
+  <div class="pt-10 border-t mt-12 border-primary-600  " >
     <main class="main bg-body "> 
         <div class="container">
           <?php
