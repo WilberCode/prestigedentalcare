@@ -155,11 +155,12 @@ module.exports = {
             }
         },
         screens: {
-            xs: '510px',
+            xs: '540px',
             sm: '640px',
             md: '768px',
             lg: '1024px',
             xl: '1280px',
+            maxs: {'max': '540px'},
             maxsm: {'max': '640px'},
             maxmd: { 'max': '768px'},
             maxlg: {'max': '1023px'},

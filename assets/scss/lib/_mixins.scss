@@ -9,12 +9,4 @@
 @mixin btn-sm() {
   @apply bg-secondary-500 text-white  py-2 px-4  border-none rounded-md  inline-block  text-base text-center leading-5 tracking-wide font-robotocd font-bold ;  
 }
-// @mixin noticeCyberSuccess() {
-//   @apply border-l-4 border-success py-3 px-4 shadow; 
-// }
-// @mixin noticeCyberInfo() {
-//   @apply border-l-4 border-info py-3 px-4 shadow; 
-// }
-// @mixin noticeCyberError() {
-//   @apply border-l-4 border-error py-3 px-4 shadow; 
-// }
+ 

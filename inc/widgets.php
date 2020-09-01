@@ -109,7 +109,7 @@ function wph_front_widgets(){
         'after_title'  => '</h2>'
     ));   
     register_sidebar(array(
-        'name' => __('Location'),
+        'name' => __('Address'),
         'id' =>'location',
         'description'   => 'Location',
         'before_widget' => '<div class="location">',
@@ -181,10 +181,20 @@ function wph_front_widgets(){
         'after_title'  => '</a>'
     ));   
     register_sidebar(array(
-        'name' => __('Location'),
+        'name' => __('Location Map'),
         'id' =>'location-map',
-        'description'   => 'Location  Map',
+        'description'   => 'Location Map',
         'before_widget' => '<div class="location-map w-full">',
+		'after_widget'  => '</div>',
+		'before_title' => '<h2 class="hidden">',
+        'after_title'  => '</h2>'
+    ));   
+  
+    register_sidebar(array(
+        'name' => __('Logo footer'),
+        'id' =>'footer-logo',
+        'description'   => 'Logo footer',
+        'before_widget' => '<div class="footer-logo">',
 		'after_widget'  => '</div>',
 		'before_title' => '<h2 class="hidden">',
         'after_title'  => '</h2>'
