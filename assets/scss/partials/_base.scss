@@ -8,7 +8,7 @@ html {
   font-size: 13px;
   text-rendering: optimizeLegibility; 
   @apply font-roboto #{!important}; 
-
+  overflow-x: hidden;
   @screen sm {
     font-size: 14px;
   }
