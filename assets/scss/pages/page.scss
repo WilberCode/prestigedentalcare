@@ -1,0 +1,55 @@
+// Como participar
+ body{
+    @apply bg-white;
+    overflow-x: hidden;
+
+ }
+ .page{ 
+    .alignwide{  
+      margin: 0 -20px;
+      max-width: 1200px;
+      @screen xl{
+         margin: 0 -66px;
+         max-width: 1200px;
+      }
+    }
+ } 
+ 
+ .page{
+      .main{
+         @apply text-primary-500 tracking-wide text-md; 
+         p{ 
+            @apply mb-6 -mt-3 ;  
+
+         }
+          
+         .wp-block-qubely-text {
+            @apply pb-0 ;  
+            h2{
+               @apply  text-secondary-500 font-semibold leading-6 tracking-wide text-lg-1; 
+            }
+         } 
+         .qubely-container{ 
+            @apply m-0;
+            max-width: 100%; 
+            @screen maxsm{ 
+                    @apply px-0; 
+            }
+        }
+        .qubely-column{
+            @screen maxsm{
+                @apply px-0; 
+            }
+        }
+        
+        .specials-price{ 
+            strong{
+              @apply text-4xl-1 mr-1 font-medium ;   
+              @screen maxsm {
+                @apply text-2xl ;    
+              }
+           }
+         } 
+        }
+ }
+ 
