@@ -49,7 +49,7 @@
                 @apply block; 
               }
            & > a{
-                @apply block h-full flex uppercase items-center  relative font-robotocd font-normal text-sm text-primary-500 tracking-wide; 
+                @apply block h-full flex  items-center  relative font-robotocd font-normal text-sm text-primary-500 tracking-wide; 
                 &::before{
                     content: '';
                     @apply bg-secondary-500 absolute hidden m-auto right-0 left-0  ;
@@ -63,7 +63,7 @@
                 @apply absolute bg-white z-20 overflow-hidden shadow py-4 right-0 mt-18 top-0 hidden rounded-md ; 
                 li{
                     a{
-                       @apply text-primary-500 py-2 px-6 block uppercase  font-robotocd text-sm text-left whitespace-no-wrap ;
+                       @apply text-primary-500 py-2 px-6 block  font-robotocd text-sm text-left whitespace-no-wrap ;
                        &:hover{
                            @apply bg-secondary-500 text-white;;
                        }
@@ -121,7 +121,7 @@
         }
         li{ 
             a{
-                @apply py-3 text-primary-500 block text-left text-base font-bold  uppercase px-2 ; 
+                @apply py-3 text-primary-500 block text-left text-base font-bold px-2 ; 
                 border-bottom: 1px solid rgba(white, 0.1);  
                 &:hover{
                  @apply underline ; 
@@ -135,7 +135,7 @@
                 &-active{
                     @apply block; 
                 }
-                @apply  z-20 overflow-hidden   py-3 m-0  right-0 top-0   hidden; 
+                @apply  z-20 overflow-hidden py-3 m-0 right-0 top-0 hidden; 
                 li{
                     a{
                        @apply text-primary-500 py-2 px-2  block  text-sm whitespace-no-wrap transition-none ;
