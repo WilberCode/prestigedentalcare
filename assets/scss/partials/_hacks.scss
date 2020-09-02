@@ -1,3 +1,28 @@
 ::target{
     outline: none; 
 } 
+/* purgecss start ignore */ 
+.metaslider .flexslider {
+    .flex-direction-nav {
+        li a{
+            background-image: url(../svg/next.svg) #{!important};
+            height: 48.653px #{!important};
+            width: 24.892px #{!important};
+            
+        }
+        .flex-prev{
+            transform: rotate(-180deg); 
+            
+        }
+    }
+    &:hover {
+        .flex-prev{
+            left: -60px #{!important};
+        }
+        .flex-next{
+            right: -60px #{!important};
+        }
+    }
+}  
+
+/* purgecss end ignore */
