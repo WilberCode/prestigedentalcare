@@ -6,11 +6,14 @@ let  menuMobile = ($)=>{
    $('#nav-toggle').on('click', () => {
         navToggle.classList.toggle('nav-toggle-active')
         mobileNav.classList.toggle('nav-active')  
-    }) 
-    $('#mobile-menu li').on('click',()=>{ 
+    })  
+    $('#mobile-menu li:not(.menu-item-has-children)').on('click',()=>{  
         navToggle.classList.toggle('nav-toggle-active')
-        mobileNav.classList.toggle('nav-active')  
+        mobileNav.classList.toggle('nav-active')        
     })
+    $('#mobile-menu li.menu-item-has-children a').on('click',(e)=>{ 
+            $('.menu-item-has-children .sub-menu').toggleClass('sub-menu-active')
+    }) 
 }
 
 export default menuMobile

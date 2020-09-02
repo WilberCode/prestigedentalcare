@@ -6,11 +6,7 @@
         
         h2{
             @apply  text-secondary-500 font-semibold leading-6 tracking-wide text-lg-1 ;    
-        }
-        // p{ 
-        //     @apply mb-7 text-primary-500 tracking-wide text-md -mt-3 ;  
-
-        // }
+        } 
         &-name{
             @apply font-medium text-primary-600 bg-white py-4 px-3; 
             width: 100%;

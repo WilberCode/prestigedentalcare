@@ -33,7 +33,7 @@
    </div>
   
     <div class="header-wrap  m-auto flex h-14  sm:h-18  justify-between items-center border-t border-primary-600 "> 
-       <div class="container inline-flex items-center lg:justify-between "> 
+       <div class="container inline-flex items-center lg:justify-between h-full "> 
          <div  class="relative z-40" > 
             <?php dynamic_sidebar('call-us') ?>  
          </div>

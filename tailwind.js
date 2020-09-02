@@ -145,11 +145,7 @@ module.exports = {
                 '6xl': '75rem', 
                 full: '100%',
             },
-            fontFamily: { 
-                // roboto: [
-                //     '"Roboto"',
-                //     'sans-serif'
-                // ],
+            fontFamily: {  
                 roboto: 'roboto', 
                 robotocd : 'robotocd'
             }
