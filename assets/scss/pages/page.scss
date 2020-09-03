@@ -13,21 +13,18 @@
          max-width: 1200px;
       }
     }
- } 
- 
+ }  
  .page,.single{
-      .main{
-         @apply text-primary-500 tracking-wide text-md;  
-         p{ 
-            @apply mb-5 -mt-3 ;  
-
-         }
-         .wp-block-qubely-text {
-            @apply py-0 ;  
+    @apply text-primary-500 tracking-wide text-md;   
+      .wp-block-qubely-text {
+            @apply pb-0 ;  
             h2{
                @apply  text-secondary-500 font-semibold leading-6 tracking-wide text-lg-1 -mt-1 ; 
             }
-            
+            p{ 
+               @apply mb-5 -mt-3 ;  
+
+            }
          } 
          .qubely-container{ 
             @apply m-0;
@@ -49,7 +46,6 @@
                 @apply text-2xl ;    
               }
            }
-         } 
-        }
+         }  
  }
  
