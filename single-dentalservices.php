@@ -45,15 +45,7 @@ get_header();?>
                         else:
                             printf('<p>Sin contenido</p>');
                     endif;
-                rewind_posts(); ?>
-               <!--  <div  class="mt-8"> 
-                    <div  class="info-contact" >If you are considering <span  class="lowercase" ><?php //  if(!empty(get_the_excerpt()) && ctype_space(get_the_excerpt()) != 1) {  the_excerpt(); } else {    the_title(); } ?>
-                     </span> with a caring dentist near you, call us today at <a href="tel:+15619653933">(561) 965-3933</a> or click below for a consultation
-                    </div>
-                </div> --><!-- 
-                <div class="text-center " >
-                    <a class="py-4 px-5 border tracking-wider text-primary-500 border-primary-500 rounded-3xl text-xl-1 inline-block " href="/#appointment-today">Click here to request an Appointment</a>
-                </div> -->
+                rewind_posts(); ?> 
            </main>
             
        </div>
