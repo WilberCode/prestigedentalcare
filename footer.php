@@ -35,10 +35,19 @@
 <footer class="bg-white footer" >
  <div class="container  ">
         <div  class="grid col-gap-1 md:grid-cols-2 row-gap-6 md:flex md:space-x-6 xl:space-x-12 pl-0 lg:pl-27 xl:pl-44 pr-0 lg:pr-10 py-10 items-center" >
-          <div class="inline-flex items-center" > 
-              <a class="logo__title" href="<?php echo home_url();?>" rel="home"> 
-                <?php dynamic_sidebar('footer-logo') ?>  
-              </a>         
+          <div class="inline-flex items-center" >  
+              <?php 
+                    $custom_logo_id = get_theme_mod( 'custom_logo' );
+                    $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );?>
+                        <?php if ( has_custom_logo() ) { ?> 
+                    <a  href="<?php echo home_url();?>" rel="home">
+                        <img   class="w-34 sm:w-43" src="<?php echo esc_url( $logo[0]);?>" alt="<?php bloginfo('name'); ?>" >
+                    </a> 
+                        <?php }else{?>
+                    <a  href="<?php echo home_url();?>" rel="home">
+                        <?php echo  '<h1 class="text-primary-500">'.get_bloginfo( "name" ).'</h1>'; ?>
+                    </a>     
+                        <?php }?>    
           </div>
           <div  class="inline-flex items-top pl-0 md:pl-5 " >
                    <svg class="text-secondary-500 fill-current  w-9 h-9 mr-3 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#hour'; ?>"></svg> 

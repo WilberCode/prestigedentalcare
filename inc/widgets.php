@@ -189,16 +189,7 @@ function wph_front_widgets(){
 		'before_title' => '<h2 class="hidden">',
         'after_title'  => '</h2>'
     ));   
-  
-    register_sidebar(array(
-        'name' => __('Logo footer'),
-        'id' =>'footer-logo',
-        'description'   => 'Logo footer',
-        'before_widget' => '<div class="footer-logo">',
-		'after_widget'  => '</div>',
-		'before_title' => '<h2 class="hidden">',
-        'after_title'  => '</h2>'
-    ));   
+   
   
 }
 add_action('widgets_init', 'wph_front_widgets');
