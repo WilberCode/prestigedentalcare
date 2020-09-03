@@ -17,13 +17,12 @@
  .page,.single{
     @apply text-primary-500 tracking-wide text-md;   
       .wp-block-qubely-text {
-            @apply pb-0 ;  
+            @apply pb-0  ;  
             h2{
                @apply  text-secondary-500 font-semibold leading-6 tracking-wide text-lg-1 -mt-1 ; 
             }
             p{ 
-               @apply mb-5 -mt-3 ;  
-
+               @apply mb-5 -mt-3 ;   
             }
          } 
          .qubely-container{ 
@@ -37,15 +36,6 @@
             @screen maxsm{
                 @apply px-0; 
             }
-        }
-        
-        .specials-price{ 
-            strong{
-              @apply text-4xl-1 mr-1 font-medium ;   
-              @screen maxsm {
-                @apply text-2xl ;    
-              }
-           }
-         }  
+        } 
  }
  

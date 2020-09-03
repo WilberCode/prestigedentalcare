@@ -14,13 +14,7 @@
         @screen lg{
             @apply  hidden;
         }
-    } 
-    &-logo{ 
-        @apply flex items-center z-50 relative ;
-        img{
-            width: 14em;
-        }
-    }
+    }  
     &-nav{
            @apply  h-full  justify-start opacity-0 absolute hidden; 
            @screen lg{

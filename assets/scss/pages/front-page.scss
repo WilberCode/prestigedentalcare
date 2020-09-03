@@ -136,8 +136,7 @@
     .textwidget{
         & a::before{
             content:'';
-            @apply  absolute w-full h-full top-0 right-0 left-0 border-0 z-10 ;  
-            
+            @apply  absolute w-full h-full top-0 right-0 left-0 border-0 z-10 ;   
         }
         p{ 
             @apply m-0; 
