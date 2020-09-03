@@ -15,18 +15,18 @@
     }
  } 
  
- .page{
+ .page,.single{
       .main{
-         @apply text-primary-500 tracking-wide text-md; 
-         p{ 
-            @apply mb-6 -mt-3 ;  
-
-         }
+         @apply text-primary-500 tracking-wide text-md;  
           
          .wp-block-qubely-text {
-            @apply pb-0 ;  
+            @apply py-0 ;  
             h2{
-               @apply  text-secondary-500 font-semibold leading-6 tracking-wide text-lg-1; 
+               @apply  text-secondary-500 font-semibold leading-6 tracking-wide text-lg-1 -mt-1 ; 
+            }
+            p{ 
+               @apply mb-6 -mt-3 ;  
+   
             }
          } 
          .qubely-container{ 
