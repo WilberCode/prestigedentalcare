@@ -3,14 +3,4 @@
         @apply text-white font-light text-lg   tracking-wider;
     } 
 }
-.footer{
-    &-logo{
-        width: 181px;
-        @screen maxsm{
-            width: 140px;
-            img{
-                max-width: none;
-            }
-        }
-    }     
-}
+ 
