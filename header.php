@@ -3,17 +3,17 @@
  
  <header class=" bg-white header">
    <div class="container">
-        <div class="  w-full relative z-40 bg-white grid   grid-cols-2 gap-4 sm:flex justify-between items-center pt-5 pb-3 space-x-2" >   
+        <div class=" w-full relative z-40 bg-white grid   grid-cols-2 gap-4 sm:flex justify-between items-center pt-5 pb-3 space-x-2" >   
                 <div> 
                     <?php 
                     $custom_logo_id = get_theme_mod( 'custom_logo' );
                     $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );?>
                         <?php if ( has_custom_logo() ) { ?> 
-                    <a class="logo__url" href="<?php echo home_url();?>" rel="home">
-                        <img id="logo__img" class="w-24 sm:w-27" src="<?php echo esc_url( $logo[0]);?>" alt="<?php bloginfo('name'); ?>" >
+                    <a  href="<?php echo home_url();?>" rel="home">
+                        <img   class="w-26 sm:w-27" src="<?php echo esc_url( $logo[0]);?>" alt="<?php bloginfo('name'); ?>" >
                     </a> 
                         <?php }else{?>
-                    <a class="logo__title" href="<?php echo home_url();?>" rel="home">
+                    <a  href="<?php echo home_url();?>" rel="home">
                         <?php echo  '<h1 class="text-primary-500">'.get_bloginfo( "name" ).'</h1>'; ?>
                     </a>     
                         <?php }?>     

@@ -8,7 +8,7 @@ get_header();?>
 <section  class="w-full bg-body" >
   <?php dynamic_sidebar('banner-image') ?> 
 </section>   
-<section class="pt-16 pb-16 bg-gray-200" >
+<section class=" pt-12 sm:pt-16 pb-16 bg-gray-200" >
   <div class="container bg-gray-200">
       <div class="grid grid-cols-1 md:grid-cols-2 md:px-4 row-gap-6 ">
         <div class="text-primary-500 pr-0 sm:pr-4 " >
@@ -21,7 +21,7 @@ get_header();?>
         </div>  
       </div>
   </div>
-  <div class="pt-10 border-t mt-12 border-primary-600  " >
+  <div class=" pt-0 sm:pt-10 border-t mt-12 border-primary-600" >
     <main class="main bg-body "> 
         <div class="container">
           <?php
