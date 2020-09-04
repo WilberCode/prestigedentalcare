@@ -13,9 +13,16 @@
         jQuery(function($) {
             $('#doctible-review-widget').reviewWidget({
             id: 'prestige-dental-care',
-            format: 'horizontal'
+            format: 'horizontal',
+            titleBGColor: '#07809c',
+            titleColor: 'white',
+            ratingStarColor: '#02BAA8',
+            linkColor: 'white',
+            locationNameColor: '#07809c', 
+            buttonColor: '#02BAA8', 
+            ratingEmptyStarColor: 'yellow',
             });
         });
     </script>
 </head>
-<body <?php body_class() ?>   >
+<body <?php body_class()  ?>   >
