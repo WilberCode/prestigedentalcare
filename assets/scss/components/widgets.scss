@@ -61,3 +61,13 @@
 
 }
 
+/* Reviews */
+.page{
+    #doctible-widget-inner-wrapper.vertical, #doctible-widget-inner-wrapper.horizontal{
+        @apply shadow-none border-0 #{!important}  ;
+        .doctible-review-counter{
+            color: white;
+        }
+    }
+}
+
