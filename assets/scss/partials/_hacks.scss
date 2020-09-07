@@ -23,6 +23,11 @@
             right: -60px #{!important};
         }
     }
-}  
+}   
 
+ .sticky-active .qubely-column-inner{
+    position: sticky;
+    top: 15px; 
+}  
 /* purgecss end ignore */
+ 

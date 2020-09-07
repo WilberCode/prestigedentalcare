@@ -13,7 +13,8 @@ let  menuMobile = ($)=>{
     })
     $('#mobile-menu li.menu-item-has-children a').on('click',(e)=>{ 
             $('.menu-item-has-children .sub-menu').toggleClass('sub-menu-active')
-    }) 
+    })  
+    
 }
 
 export default menuMobile

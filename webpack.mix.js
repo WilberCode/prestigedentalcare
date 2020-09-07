@@ -42,7 +42,7 @@ mix.purgeCss({
         path.join(__dirname, 'inc/*.php'),
         path.join(__dirname, 'build/js/**/*.js'),
     ]),
-    whitelist: ['current-menu-item','current-menu-parent' ],
+    whitelist: ['current-menu-item','current-menu-parent','fixed' ],
     // whitelistPatterns: [/^search-/],
     // whitelistPatternsChildren: [/^search-/,/^social-media/,/^single-dentalservices/,/^everest-forms/,/^wp-block-/,/^qubely-/,/^page-template-page-about-us/,/^page/,/^textwidget/]
     whitelistPatternsChildren: [/^search-/,/^social-media/,/^everest-forms/,/^page/,/^single/,/^textwidget/]

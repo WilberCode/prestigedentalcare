@@ -1,10 +1,10 @@
 // Como participar
  body{
     @apply bg-white;
-    overflow-x: hidden;
-
+   
  }
  .page{ 
+
     .alignwide{  
       margin: 0 -20px;
       max-width: 1200px;
@@ -16,6 +16,7 @@
  }  
  .page,.single{
     @apply text-primary-500 tracking-wide text-md;   
+    overflow: initial; 
       .wp-block-qubely-text {
             @apply pb-0  ;  
             h2{
