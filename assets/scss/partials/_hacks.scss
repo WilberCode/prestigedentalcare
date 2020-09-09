@@ -20,7 +20,7 @@
             }
             .flex-prev{
                 transform: rotate(-180deg); 
-                left:0 #{!important};
+                left:-3px #{!important};
             } 
             .flex-next{
                 right: -3px #{!important};
@@ -31,7 +31,7 @@
                  left: -3px #{!important};
             }
             .flex-next{
-                right: 0 #{!important};
+                right: -3px #{!important};
             }
         }
         .caption-wrap{
