@@ -1,6 +1,6 @@
 // Como participar
  body{
-    @apply bg-white;
+    @apply bg-white overflow-x-hidden ;
    
  }
  .page{ 
@@ -14,9 +14,10 @@
       }
     }
  }  
+
+ 
  .page,.single{
-    @apply text-primary-500 tracking-wide text-md;   
-    overflow: initial; 
+    @apply text-primary-500 tracking-wide text-md;  
       .wp-block-qubely-text {
             @apply pb-0  ;  
             h2{
