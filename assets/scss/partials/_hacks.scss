@@ -45,9 +45,16 @@
     }   
 }
 
+
+//sticky
  .sticky-active .qubely-column-inner{
     position: sticky;
     top: 15px; 
 }  
+
+//:target
+.target-form-espanol, .target-form-english{
+    @apply cursor-pointer;
+}
 /* purgecss end ignore */
  
