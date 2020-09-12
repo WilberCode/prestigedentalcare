@@ -91,7 +91,7 @@
                             }
                             select{
                                 max-width: 155px;
-                                @apply bg-primary-600 mb-0 text-white border-none rounded-full text-center px-3  bg-no-repeat font-roboto; 
+                                @apply bg-primary-600 mb-0 text-white border-none rounded-full text-center px-3 py-2  bg-no-repeat font-roboto; 
                                 @screen sm{ 
                                     @apply appearance-none #{!important} ;   
                                     background-image: url('../svg/down.svg');  
