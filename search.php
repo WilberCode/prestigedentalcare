@@ -15,18 +15,18 @@
 		<div class="msearch-posts mb-8 ">
 			<?php if(have_posts()):
 					while(have_posts()):  the_post(); ?>  
-						<article class="grid grid-cols-3 mb-4 shadow-md hover:underline  ">
+						<article class="grid grid-cols-3 mb-4 shadow hover:underline  ">
 							<?php if(thumbnail_image_url('full')){  ?> 
                             <a href="<?php the_permalink();?>" class=" col-span-1 " >
-                                <img  class="block p-6 "  src="<?php echo thumbnail_image_url('full'); ?>" alt="">
+                                <img  class="block xs:p-6 "  src="<?php echo thumbnail_image_url('full'); ?>" alt="">
 							</a>
-							<div class=" col-span-2  flex justify-start items-center py-5 px-8 "> 
-								<a href="<?php the_permalink(); ?>" class="text-xl  text-primary-500 ">  
+							<div class=" col-span-2  flex justify-start items-center xs:py-5 px-3 xs:px-8 "> 
+								<a href="<?php the_permalink(); ?>" class=" text-md sm:text-xl  text-primary-500 ">  
 								    <?php the_title(); ?> 
 								</a>
 							</div> 
 							<?php }else{	?>
-								<a href="<?php the_permalink(); ?>" class=" flex justify-center items-center py-5 px-8 text-xl col-span-3 text-primary-500 ">  
+								<a href="<?php the_permalink(); ?>" class=" text-center flex justify-center items-center py-5 px-8 text-md sm:text-xl col-span-3 text-primary-500 ">  
 								 <?php the_title(); ?> 
 								</a>
 							<?php }?>

@@ -1,0 +1,73 @@
+// Btn Call Us
+.call-us{
+    .textwidget{
+        p{
+            @apply m-0;
+        }
+        a{
+            @apply m-0;
+            @include btn-sm;
+        }
+    }
+}
+// Btn Make an Appointment
+.make-an-appointment{
+    .textwidget{
+        p{
+            @apply m-0;
+        }
+        a{
+            @apply m-0;
+            @include btn;
+        }
+    }
+}
+
+// Icons Phone and Mail
+
+.contact {
+    &-mail, &-phone{
+        a::before{
+            content: ''; 
+            @apply absolute  top-0 right-0 bottom-0 left-0 ; 
+            z-index: 4;
+        }
+       
+    }
+}
+
+//Our Dental Services
+.our-dental-service{
+    .textwidget{
+        h3{
+            @apply  text-2xl  font-light leading-tighter mt-2 mb-1;
+            @screen md{
+                @apply  text-5xl; 
+            }
+        }
+        &>h4{
+            @apply  text-xl  font-light mt-1 mb-0;
+            @screen md{
+                @apply  text-2xl; 
+            } 
+        }
+        img{
+            @apply mt-4;
+           /*  @screen sm{
+                @apply  max-w-xs; 
+            }  */
+        }
+    } 
+
+}
+
+/* Reviews */
+.page{
+    #doctible-widget-inner-wrapper.vertical, #doctible-widget-inner-wrapper.horizontal{
+        @apply shadow-none border-0 #{!important}  ;
+        .doctible-review-counter{
+            color: white;
+        }
+    }
+}
+
