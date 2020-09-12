@@ -52,10 +52,10 @@
             } 
         }
         img{
-            @apply w-full mt-4;
-            @screen sm{
+            @apply mt-4;
+           /*  @screen sm{
                 @apply  max-w-xs; 
-            } 
+            }  */
         }
     } 
 

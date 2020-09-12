@@ -8,18 +8,16 @@
         
         } 
         &::after { 
-            content: '';
-            position: absolute;
+            content: ''; 
             background-image: url('../svg/search.svg');
             background-size: contain; 
             width: 22px;
             height: 22px;
-            @apply text-gray-500; 
+            @apply text-gray-500 absolute bg-no-repeat  z-20; 
             right:1em;
             top: 50%;
-            transform: translateY(-50%);
-            background-repeat: no-repeat;
-            filter: opacity(0.4);
+            transform: translateY(-50%); 
+            filter: invert(1) ;
             &:hover, &:focus{
                 &::after { 
                     filter: opacity(0.8);
@@ -32,8 +30,7 @@
     &-field{ 
         @apply w-full shadow-md text-gray-800;
         padding: .5em;
-        padding-right:2.6em;
-        border-radius: 4px; 
+        padding-right:2.6em; 
         outline: none;  
         font-size: 18px; 
         background: #ffffff;  
@@ -42,15 +39,7 @@
             @apply text-gray-500;
         }
     }
-    &-submit{
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        border: none;
-        background: transparent;
-        cursor: pointer;
-        opacity: 0;
-        z-index:40; 
+    &-submit{ 
+        @apply absolute top-0 right-0 bottom-0 border-none bg-transparent cursor-pointer bg-secondary-500 text-secondary-500 z-10 ;  
     }
 } 
