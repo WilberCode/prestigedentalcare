@@ -63,7 +63,7 @@
         
                     }
                     input,textarea{
-                        @apply py-4 px-3 text-center mb-0 border-none text-primary-600  tracking-wider border-none  #{!important} ;
+                        @apply py-4 px-3 text-center mb-0 border-none text-primary-600  tracking-wider rounded-none  #{!important} ;
                         background: #b5d9e1;
                         &::placeholder{
                          @apply text-white font-roboto tracking-wider  #{!important} ; 
@@ -92,12 +92,12 @@
                             select{
                                 max-width: 155px;
                                 @apply bg-primary-600 mb-0 text-white border-none rounded-full text-center px-3 py-2  bg-no-repeat font-roboto; 
-                                @screen sm{ 
+                              
                                     @apply appearance-none #{!important} ;   
                                     background-image: url('../svg/down.svg');  
                                     background-position: right .7em top 50%, 0 0; 
                                     background-size: .80em auto, 100%;
-                                }
+                            
                                 @screen maxsm{ 
                                     max-width:118px; 
                                     width: 118px; 
