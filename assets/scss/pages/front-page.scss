@@ -79,9 +79,9 @@
                         } 
                         
                         &-select{
-                            @apply justify-between flex-wrap mb-2-1 #{!important} ;
-                            @screen xx{
-                                @apply inline-flex #{!important};
+                            @apply inline-flex justify-between flex-wrap mb-2-1 #{!important} ;
+                            @screen maxx{
+                                @apply block #{!important};
                             }
                             label{
                                 @apply text-md tracking-wide font-normal text-primary-600 mb-0 ;
@@ -102,6 +102,10 @@
                                     background-size: .80em auto, 100%;
                             
                                 @screen maxsm{ 
+                                    max-width:123px; 
+                                    width: 123px;  
+                                }  
+                                @screen maxx{ 
                                     max-width:155px; 
                                     width: 155px;  
                                 }  
