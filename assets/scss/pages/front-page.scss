@@ -79,7 +79,10 @@
                         } 
                         
                         &-select{
-                            @apply inline-flex justify-between flex-wrap mb-2-1 #{!important} ;
+                            @apply justify-between flex-wrap mb-2-1 #{!important} ;
+                            @screen xx{
+                                @apply inline-flex #{!important};
+                            }
                             label{
                                 @apply text-md tracking-wide font-normal text-primary-600 mb-0 ;
                                 .evf-label{
@@ -99,8 +102,12 @@
                                     background-size: .80em auto, 100%;
                             
                                 @screen maxsm{ 
-                                    max-width:118px; 
-                                    width: 118px; 
+                                    max-width:110px; 
+                                    width: 110px; 
+                                } 
+                                @screen maxx{ 
+                                    max-width:155px; 
+                                    width: 155px; 
                                 } 
                                 font-size: 13px; 
                                 & > option.placeholder{
