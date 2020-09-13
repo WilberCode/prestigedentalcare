@@ -98,9 +98,9 @@
                                     background-position: right .7em top 50%, 0 0; 
                                     background-size: .80em auto, 100%;
                                 }
-                                @screen maxsm{
-                                    @apply  px-2; 
-                                    max-width: 88px; 
+                                @screen maxsm{ 
+                                    max-width:118px; 
+                                    width: 118px; 
                                 } 
                                 font-size: 13px; 
                                 & > option.placeholder{
