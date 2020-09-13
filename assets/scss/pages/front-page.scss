@@ -1,0 +1,213 @@
+.banner{
+    &-image{
+        @apply max-w-6xl  m-auto ;
+        img{
+            @apply max-w-6xl m-auto; 
+            max-width: 1200px;
+        }
+    }
+}
+.appointment-today{
+    @apply bg-white ;
+    .our-dental-service:nth-child(2){
+        @apply text-center pb-3 text-primary-600 ; 
+        h2{
+            @apply hidden text-center text-primary-600 ;
+
+        }
+        .textwidget {
+            @apply px-4 ;
+           @screen sm{
+                @apply px-10  ;
+           }
+            p{
+                @apply text-primary-600 ; 
+                font-size: 11px;
+           }
+        }
+    }
+}
+
+// form
+.everest{
+    &-forms{
+        @apply bg-white pt-4  px-4 pb-4 #{!important}; 
+        @screen xs{
+            @apply px-6 #{!important}; 
+        }
+        @screen sm{
+            @apply  pt-5  px-14  #{!important}; 
+        }
+        
+        .everest-forms-notice{
+           @apply   bg-secondary-500 ;
+            
+        }
+       
+        .evf{
+            &-container{
+                @apply mb-0 #{!important}; 
+            }
+            &-frontend{ 
+                &-row{
+                    @apply m-0 #{!important};
+                }
+                &-grid{ 
+                    @apply  pb-1 px-0 grid grid-cols-2 col-gap-3  #{!important};
+                    @screen xs{
+                        @apply col-gap-4 #{!important};
+
+                    }
+                    @screen sm{
+                        @apply col-gap-6 #{!important};
+        
+                    }
+                    input,textarea{
+                        @apply py-4 px-3 text-center mb-0 border-none text-primary-600  tracking-wider rounded-none  #{!important} ;
+                        background: #b5d9e1;
+                        &::placeholder{
+                         @apply text-white font-roboto tracking-wider  #{!important} ; 
+                        }
+                    }  
+                    .evf-field{
+                        @apply mb-1-3 #{!important};   
+                        &-textarea{
+                            @apply mt-0-1 #{!important};
+                        }
+                        &-textarea,&-select{
+                            @apply col-span-2 mb-0 #{!important};
+                        } 
+                        
+                        &-select{
+                            @apply justify-between flex-wrap mb-2-1 #{!important} ;
+                            @screen xx{
+                                @apply inline-flex #{!important};
+                            }
+                            label{
+                                @apply text-md tracking-wide font-normal text-primary-600 mb-0 ;
+                                .evf-label{
+                                    @apply text-primary-600 ;
+                                }
+                                .required{
+                                    @apply hidden; 
+                                } 
+                            }
+                            select{
+                                max-width: 155px;
+                                @apply bg-primary-600 mb-0 text-white border-none rounded-full text-center px-3 py-2  bg-no-repeat font-roboto; 
+                              
+                                    @apply appearance-none #{!important} ;   
+                                    background-image: url('../svg/down.svg');  
+                                    background-position: right .7em top 50%, 0 0; 
+                                    background-size: .80em auto, 100%;
+                            
+                                @screen maxsm{ 
+                                    max-width:110px; 
+                                    width: 110px; 
+                                } 
+                                @screen maxx{ 
+                                    max-width:155px; 
+                                    width: 155px; 
+                                } 
+                                font-size: 13px; 
+                                & > option.placeholder{
+                                     color:  #ffffff77;
+                                     background:#07809C;
+                                } 
+                                
+                            }
+                            .evf-error{
+                                @apply w-full;
+                            }
+                            &:nth-child(2){
+                                @apply mb-5   #{!important} ; 
+                            } 
+                        } 
+                    } 
+                    .evf-field-date-time{
+                        input{  
+                            background-image: url('../svg/date.svg');  
+                            background-size: 36px; 
+                            @apply bg-center bg-no-repeat ;
+
+                            @screen maxsm{
+                                background-size: 25px; 
+                                @apply  text-left #{!important};
+                            } 
+                        }
+                        input.active{     
+                            background-size: 20px;
+                            background-position: right 10px center;
+                            @screen maxsm{
+                                background-position: right 6px center;
+                                background-size: 15px; 
+                            } 
+
+                        }
+                        .time-value{ 
+                            background-position: right 10px center;
+                            background-size: 20px; 
+                            @screen maxsm{ 
+                                background-size: 15px; 
+                                background-position: right 6px center;
+                            } 
+                        }
+                    }
+                }
+            }
+            &-submit-container{
+                @apply mt-0 text-center;
+                button{
+                    @apply bg-secondary-500 text-white   py-3 px-8 border-none rounded-lg  inline-block  text-base text-center leading-4 tracking-widest font-robotocd font-normal  #{!important};
+
+                }
+            }
+            
+        }
+        & .evf-field-container .evf-frontend-row textarea{
+            height: 53px; 
+            @screen maxs{
+               @apply pt-5 #{!important};
+
+            }
+          
+        }
+    }
+   
+}
+.page-template-front-page{ 
+    main{
+        .qubely-container{
+            @apply pl-0 pr-0 #{!important};
+        }
+    } 
+}
+
+
+// Widgets
+
+// Attention schedule & Location
+
+.attention-schedule, .location{
+    .textwidget{
+        p{
+            @apply text-primary-500 text-base font-robotocd font-normal leading-tight tracking-wide;
+            strong{
+                @apply text-secondary-500 font-normal;
+            }
+        }
+    }
+}
+// Location map
+.location-map{ 
+    @apply relative; 
+    .textwidget{
+        & a::before{
+            content:'';
+            @apply  absolute w-full h-full top-0 right-0 left-0 border-0 z-10 ;   
+        }
+        p{ 
+            @apply m-0; 
+         }
+    }
+}
