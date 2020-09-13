@@ -102,13 +102,9 @@
                                     background-size: .80em auto, 100%;
                             
                                 @screen maxsm{ 
-                                    max-width:110px; 
-                                    width: 110px; 
-                                } 
-                                @screen maxx{ 
                                     max-width:155px; 
-                                    width: 155px; 
-                                } 
+                                    width: 155px;  
+                                }  
                                 font-size: 13px; 
                                 & > option.placeholder{
                                      color:  #ffffff77;

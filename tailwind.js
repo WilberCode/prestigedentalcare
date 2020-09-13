@@ -156,13 +156,13 @@ module.exports = {
             }
         },
         screens: {
-            xx: '382px',
+            xx: '406px',
             xs: '540px',
             sm: '640px',
             md: '768px',
             lg: '1024px',
             xl: '1280px',
-            maxx: {'max': '382px'},
+            maxx: {'max': '406px'},
             maxs: {'max': '540px'},
             maxsm: {'max': '640px'},
             maxmd: { 'max': '768px'},
