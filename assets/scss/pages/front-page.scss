@@ -63,10 +63,10 @@
         
                     }
                     input,textarea{
-                        @apply py-4 px-3 text-center mb-0 border-none text-primary-600  tracking-wider rounded-none  #{!important} ;
+                        @apply py-4 px-3 text-center mb-0 border-none text-primary-600  tracking-wider rounded-none font-roboto  #{!important} ;
                         background: #b5d9e1;
                         &::placeholder{
-                         @apply text-white font-roboto tracking-wider  #{!important} ; 
+                         @apply text-white font-roboto tracking-widest  #{!important} ; 
                         }
                     }  
                     .evf-field{
